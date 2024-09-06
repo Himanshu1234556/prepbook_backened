@@ -13,12 +13,20 @@ exports.sendOtp = async (phone) => {
 };
 
 exports.verifyOtp = async (phone, otp) => {
+    // Find the OTP record
     const otpRecord = await OTP.findOtp(phone, otp);
     if (!otpRecord) throw new Error('Invalid OTP');
-    
-    const token = jwtHelper.generateToken({ phone });
+
+    // Find the user by phone number
     const user = await User.findByPhone(phone);
-    
+    if (!user) throw new Error('User not found');
+
+    // Generate JWT token using userId as payload
+    const token = jwtHelper.generateToken({ userId: user._id });
+
+    // Check if the user profile is updated
     const profileUpdatedKey = !!(user.name && user.email && user.university_id && user.college_id && user.branch_id && user.year);
+
+    // Return the token and profile update status
     return { token, profile_updated: profileUpdatedKey };
 };
