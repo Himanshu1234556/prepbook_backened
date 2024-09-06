@@ -22,7 +22,7 @@ exports.verifyOtp = async (phone, otp) => {
     if (!user) throw new Error('User not found');
 
     // Generate JWT token using userId as payload
-    const token = jwtHelper.generateToken({ userId : user._id });
+    const token = jwtHelper.generateToken({ userId : user.id });
 
     // Check if the user profile is updated
     const profileUpdatedKey = !!(user.name && user.email && user.university_id && user.college_id && user.branch_id && user.year);

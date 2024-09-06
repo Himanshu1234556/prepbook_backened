@@ -17,7 +17,7 @@ exports.verifyToken = (req, res, next) => {
 
     try {
         const decoded = jwtHelper.verifyToken(token); // Verifies the token
-        req.user = decoded.userId; // Attach the decoded payload to the request
+        req.user = decoded; // Attach the decoded payload to the request
         next();
     } catch (error) {
         return res.status(401).json({ message: 'Invalid or expired token' });
