@@ -1,0 +1,3042 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "name": "Bachelor of Technology",
+            "branches": [],
+            "semesters": [],
+            "universities": [
+                {
+                    "id": 1,
+                    "name": "DR. A.P.J. Abdul Kalam Technical University Lucknow",
+                    "colleges": [
+                        {
+                            "id": 1,
+                            "name": "BUNDELKHAND INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 2,
+                            "name": "UTTAR PRADESH TEXTILE TECHNOLOGY INSTITUTE"
+                        },
+                        {
+                            "id": 3,
+                            "name": "FACULTY OF ARCHITECTURE"
+                        },
+                        {
+                            "id": 4,
+                            "name": "INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 5,
+                            "name": "KAMLA NEHRU INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 6,
+                            "name": "INDIAN INSTITUTE OF CARPET TECHNOLOGY"
+                        },
+                        {
+                            "id": 7,
+                            "name": "INSTITUTE OF COOPERATIVE & CARPORATE RESEARCH & TRANING"
+                        },
+                        {
+                            "id": 8,
+                            "name": "DR.AMBEDKAR INSTITUTE OF TECHNOLOGY FOR HANDICAPPEDS"
+                        },
+                        {
+                            "id": 9,
+                            "name": "INDIRA GANDHI SAHKARI PRABANDH SANSTHAN"
+                        },
+                        {
+                            "id": 10,
+                            "name": "NATIONAL INSTITUTE OF ELECTRONICS & INFORMATION TECHNOLOGY"
+                        },
+                        {
+                            "id": 11,
+                            "name": "RAJKIYA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 12,
+                            "name": "RAJKIYA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 13,
+                            "name": "RAJKIYA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 14,
+                            "name": "RAJKIYA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 15,
+                            "name": "REMOTE SENSING APPLICATION CENTRE"
+                        },
+                        {
+                            "id": 16,
+                            "name": "RAJKIYA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 17,
+                            "name": "RAJKIYA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 18,
+                            "name": "RAJKIYA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 19,
+                            "name": "U.P. INSTITUTE OF DESIGN"
+                        },
+                        {
+                            "id": 20,
+                            "name": "CENTRE FOR ADVANCE STUDIES"
+                        },
+                        {
+                            "id": 21,
+                            "name": "GOVERNMENT PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 22,
+                            "name": "ANAND-ENGG.COLLEGE"
+                        },
+                        {
+                            "id": 23,
+                            "name": "FACULTY OF ENGG"
+                        },
+                        {
+                            "id": 24,
+                            "name": "RAJA BALWANT SINGH ENGINEERING TECHNICAL CAMPUS"
+                        },
+                        {
+                            "id": 25,
+                            "name": "RAJA BALWANT SINGH MANAGEMENT TECHNICAL CAMPUS"
+                        },
+                        {
+                            "id": 26,
+                            "name": "AGRA PUBLIC INSTITUTE OF TECH. & COMPUTER EDUCATION"
+                        },
+                        {
+                            "id": 27,
+                            "name": "SHIVDAN SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 28,
+                            "name": "UNITED COLLEGE OF ENGINEERING & RESEARCH"
+                        },
+                        {
+                            "id": 29,
+                            "name": "UNITED INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 30,
+                            "name": "PHARMCY COLLEGE"
+                        },
+                        {
+                            "id": 31,
+                            "name": "SHRI GOPICHAND COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 32,
+                            "name": "SHRI RAMMURTI SMARAK COLLEGE OF ENGG AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 33,
+                            "name": "RAKSHPAL BAHADUR MANAGEMENT INSTITUTE"
+                        },
+                        {
+                            "id": 34,
+                            "name": "KUNWAR SATYA VEERA COLLEGE OF ENGG. & MANAGEMENT"
+                        },
+                        {
+                            "id": 35,
+                            "name": "BABU BANARSI DAS INSTITUTE OF ENGG. TECH & RESEARCH CENTRE"
+                        },
+                        {
+                            "id": 36,
+                            "name": "MARATHWADA INSTT. OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 37,
+                            "name": "FACULTY OF MANAGEMENT"
+                        },
+                        {
+                            "id": 38,
+                            "name": "AJAY KUMAR GARG ENGG. COLLEGE"
+                        },
+                        {
+                            "id": 39,
+                            "name": "IDEAL INSTT. OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 40,
+                            "name": "KIET GROUP OF INSTITUTIONS(KRISHNA INSTT. OF ENGG. & TECHNOLOGY)"
+                        },
+                        {
+                            "id": 41,
+                            "name": "INDERPRASTHA ENGG. COLLEGE"
+                        },
+                        {
+                            "id": 42,
+                            "name": "ABES ENGG.COLLEGE"
+                        },
+                        {
+                            "id": 43,
+                            "name": "RAJ KUMAR GOEL INSTT. OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 44,
+                            "name": "BABU BANARSI DAS INSTITUTE OF TECH."
+                        },
+                        {
+                            "id": 45,
+                            "name": "INSTITUTE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 46,
+                            "name": "INSTITUTE OF MANAGEMENT EDUCATION"
+                        },
+                        {
+                            "id": 47,
+                            "name": "INSTITUTE OF TECHNOLOGY & SCIENCE"
+                        },
+                        {
+                            "id": 48,
+                            "name": "INSTITUTE OF MANAGEMENT RESEARCH"
+                        },
+                        {
+                            "id": 49,
+                            "name": "TECHNICAL EDUCATION & RESEARCH INSTITUTE"
+                        },
+                        {
+                            "id": 50,
+                            "name": "ACHARYA NARENDRA DEV COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 51,
+                            "name": "MAHARANA PRATAP ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 52,
+                            "name": "DR. VIRENDRA SWAROOP INSTITUTE OF COMPUTER STUDIES"
+                        },
+                        {
+                            "id": 53,
+                            "name": "DAYANAND ACADEMY OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 54,
+                            "name": "COLLEGE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 55,
+                            "name": "AZAD INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 56,
+                            "name": "B.B.D NATIONAL INSTITUTE OF TECH. & MANAGEMENT"
+                        },
+                        {
+                            "id": 57,
+                            "name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 58,
+                            "name": "INTERNATIONAL INSTITUTE FOR SPECIAL EDUCATION"
+                        },
+                        {
+                            "id": 59,
+                            "name": "INSTITUTE OF ENVIRONMENT & MANAGEMENT"
+                        },
+                        {
+                            "id": 60,
+                            "name": "LAL BAHADUR SHASTRI INSTITUTE OF MANAGEMENT & DEVELOPMENT STUDIES"
+                        },
+                        {
+                            "id": 61,
+                            "name": "SHERWOOD COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 62,
+                            "name": "MOTILAL RASTOGI SCHOOL OF MANAGEMENT"
+                        },
+                        {
+                            "id": 63,
+                            "name": "HINDUSTAN COLLEGE OF SCIENCE & TECHNOLOGY"
+                        },
+                        {
+                            "id": 64,
+                            "name": "B.S.A. COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 65,
+                            "name": "RAJEEV ACADEMY FOR PHARMACY"
+                        },
+                        {
+                            "id": 66,
+                            "name": "HINDUSTAN INSTITUTE OF MANAGEMENT & COMPUTER STUDIES"
+                        },
+                        {
+                            "id": 67,
+                            "name": "MEERUT INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 68,
+                            "name": "RADHA GOVIND GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 69,
+                            "name": "COLLEGE OF ENGG. & RURAL TECHNOLOGY"
+                        },
+                        {
+                            "id": 70,
+                            "name": "DEWAN INSTITUTE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 71,
+                            "name": "GHANSHYAM BINANI ACADEMY OF MANAGEMENT SCIENCE"
+                        },
+                        {
+                            "id": 72,
+                            "name": "DR. K.N. MODI INSTITUTE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 73,
+                            "name": "DR. K.N. MODI INSTITUTE OF PHARMACEUTICAL SCIENCE & RESEARCH"
+                        },
+                        {
+                            "id": 74,
+                            "name": "UNIQUE INSTITUTE OF MANAGEMENT AND TECHNALOGY"
+                        },
+                        {
+                            "id": 75,
+                            "name": "MORADABAD INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 76,
+                            "name": "S.D.COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 77,
+                            "name": "BHAGWANT INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 78,
+                            "name": "S.D. COLLEGE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 79,
+                            "name": "APEEJAY INSTITUTE OF TECHNOLOGY SCHOOL OF ARCHITECTURE AND PLANNING"
+                        },
+                        {
+                            "id": 80,
+                            "name": "I.E.C. COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 81,
+                            "name": "J.S.S. ACADEMY OF TECHNICAL EDUCATION"
+                        },
+                        {
+                            "id": 82,
+                            "name": "RAM EESH INSTITUTE OF VOCATIONAL AND TECHNICAL EDUCATION"
+                        },
+                        {
+                            "id": 83,
+                            "name": "GALGOTIAS INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 84,
+                            "name": "MAHATAMA GANDHI MISSION COLLEGE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 85,
+                            "name": "VISHVESHWARYA GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 86,
+                            "name": "GALGOTIA S COLLEGE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 87,
+                            "name": "INSTITUTE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 88,
+                            "name": "HARLAL INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 89,
+                            "name": "SCHOOL OF MANAGEMENT SCIENCES"
+                        },
+                        {
+                            "id": 90,
+                            "name": "INSTITUTE OF COMPUTER SCIENCE & TECHNOLOGY"
+                        },
+                        {
+                            "id": 91,
+                            "name": "R.S.M.T. COLLEGE"
+                        },
+                        {
+                            "id": 92,
+                            "name": "ALIGARH COLLEGE OF ENGG. & TECH"
+                        },
+                        {
+                            "id": 93,
+                            "name": "INSTITUTE OF ENGG. & RURAL TECHNOLOGY"
+                        },
+                        {
+                            "id": 94,
+                            "name": "INTEGRATED ACADEMY OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 95,
+                            "name": "INSTITUTE OF PROFESSIONAL EXCELLENCE & MANAGEMENT"
+                        },
+                        {
+                            "id": 96,
+                            "name": "JAIPURIA INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 97,
+                            "name": "RAM CHAMELI CHADDHA VISHWASH GIRL COLLEGE"
+                        },
+                        {
+                            "id": 98,
+                            "name": "NANDINI NAGAR MAHAVIDAYALA"
+                        },
+                        {
+                            "id": 99,
+                            "name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 100,
+                            "name": "SHRI RAM SWAROOP MEMORIAL COLLEGE OF ENGG. & MANAGEMENT"
+                        },
+                        {
+                            "id": 101,
+                            "name": "SAROJ INSTITUTE OF TECH. & MANAGEMENT"
+                        },
+                        {
+                            "id": 102,
+                            "name": "SACHDEVA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 103,
+                            "name": "I.I.M.T. ENGG. COLLEGE"
+                        },
+                        {
+                            "id": 104,
+                            "name": "BHARAT INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 105,
+                            "name": "FORT INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 106,
+                            "name": "GREATER NOIDA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 107,
+                            "name": "NOIDA INSTITUTE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 108,
+                            "name": "SACRED HEART INSTITUTE OF MANAGAMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 109,
+                            "name": "KAMLA NEHRU INSTITUTE OF PHYSICAL & SOCIAL SCIENCES"
+                        },
+                        {
+                            "id": 110,
+                            "name": "S.D.COLLEGE OF PHARMACY AND VOCATIONAL STUDIES"
+                        },
+                        {
+                            "id": 111,
+                            "name": "B.B.S.COLLEGE OF ENGGINERING AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 112,
+                            "name": "KALICHARAN NIGAM INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 113,
+                            "name": "SAGAR INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 114,
+                            "name": "KHANDELWAL COLLEGE OF MANAGEMENT SCIENCE AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 115,
+                            "name": "I.M.S. ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 116,
+                            "name": "PRASAD INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 117,
+                            "name": "S R GROUP OF INSTITUTIONS (COLLEGE OF SCIENCE AND ENGINEERING)"
+                        },
+                        {
+                            "id": 118,
+                            "name": "IILM ACADEMY OF HIGHER LEARNING"
+                        },
+                        {
+                            "id": 119,
+                            "name": "GLOBAL INSTITUTE OF INFORMATION TECHNOLOGY"
+                        },
+                        {
+                            "id": 120,
+                            "name": "MANGALMAY INSTITUTE OF MANAGEMENT AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 121,
+                            "name": "SKY LINE INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 122,
+                            "name": "FACULTY OF MANAGEMENT AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 123,
+                            "name": "INSTITUTE OF HOTEL MANAGEMENT CATERING TECHNOLOGY & APPLIED NUTRITION"
+                        },
+                        {
+                            "id": 124,
+                            "name": "J.P.INSTITUTE OF HOTEL MANAGEMENT & CATERING TECHNOLOGY"
+                        },
+                        {
+                            "id": 125,
+                            "name": "KRISHNA ENGG. COLLEGE"
+                        },
+                        {
+                            "id": 126,
+                            "name": "SHAMBHU NATH INSTITUTE OF ENGG. & TECHNOLGY"
+                        },
+                        {
+                            "id": 127,
+                            "name": "DR.M.C.SAXENA COLLEGE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 128,
+                            "name": "PRANVEER SINGH INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 129,
+                            "name": "KANPUR INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 130,
+                            "name": "RAJARSHI RANANJAY SINGH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 131,
+                            "name": "SMT. VIDYAWATI COLELGE OF PHARMACY"
+                        },
+                        {
+                            "id": 132,
+                            "name": "RAKSHAPAL BAHADUR COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 133,
+                            "name": "I.T.S. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 134,
+                            "name": "SRI.R.L.T. INSTITUTE OF PHARMECUTICAL SCIENCE & TECHNOLOGY"
+                        },
+                        {
+                            "id": 135,
+                            "name": "LLOYD INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 136,
+                            "name": "RAJEEV ACADEMY FOR TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 137,
+                            "name": "KISHAN INSTITUTE OF INFORMATION TECHNOLOGY"
+                        },
+                        {
+                            "id": 138,
+                            "name": "AL BARKAT INSTITUTE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 139,
+                            "name": "JEEVAN DEEP INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 140,
+                            "name": "STEP H.B.T.I."
+                        },
+                        {
+                            "id": 141,
+                            "name": "KALKA INSTITUTE FOR RESEARCH & ADVANCED STUDIES"
+                        },
+                        {
+                            "id": 142,
+                            "name": "KAMLA NEHRU INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 143,
+                            "name": "FEROZ GANDHI INSTITUTE OF ENGINEERING &TECHNOLOGY"
+                        },
+                        {
+                            "id": 144,
+                            "name": "ADVANCED INSTITUTE OF BIO-TECH & PARAMEDICAL SCIENCES"
+                        },
+                        {
+                            "id": 145,
+                            "name": "CENTRAL INSTITUTE OF PLASTIC ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 146,
+                            "name": "G.L. BAJAJ INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 147,
+                            "name": "UNITED COLLEGE OF ENGIINEERING & RESEARCH"
+                        },
+                        {
+                            "id": 148,
+                            "name": "H.R.INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 149,
+                            "name": "KNGD MODI ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 150,
+                            "name": "COLLEGE OF ENGINEERING SCIENCE & TECHNOLOGY"
+                        },
+                        {
+                            "id": 151,
+                            "name": "AZAD INSTITUTE OF PHARMACY & RESEARCH"
+                        },
+                        {
+                            "id": 152,
+                            "name": "KIET GROUP OF INSTITUTIONS(KIET SCHOOL OF PHARMACY)"
+                        },
+                        {
+                            "id": 153,
+                            "name": "MAHARANA PRATAP COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 154,
+                            "name": "NKBR COLLEGE OF PHARMACY & RESEARCH CENTER"
+                        },
+                        {
+                            "id": 155,
+                            "name": "HYGIA INSTITUTE OF PHARMACEUTICAL EDUCATION AND RESEARCH"
+                        },
+                        {
+                            "id": 156,
+                            "name": "RAMESHWARAM INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 157,
+                            "name": "R.V.NORTHLAND INSTITUTE"
+                        },
+                        {
+                            "id": 158,
+                            "name": "SHRI HARISH CHANDRA POST GRADUATE COLLEGE"
+                        },
+                        {
+                            "id": 159,
+                            "name": "TRANSLAM INSTITUTE OF PHARMACEUTICAL EDUCATION & RESEARCH"
+                        },
+                        {
+                            "id": 160,
+                            "name": "VIVEK COLLEGE OF TECHNICAL EDUCATION"
+                        },
+                        {
+                            "id": 161,
+                            "name": "RAKSHAPAL BAHADUR MANAGEMENT INSTITUTE"
+                        },
+                        {
+                            "id": 162,
+                            "name": "UNITED INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 163,
+                            "name": "HIMT COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 164,
+                            "name": "SANSKAR COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 165,
+                            "name": "IIMT COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 166,
+                            "name": "BHAGAWANT INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 167,
+                            "name": "HI-TECH. INSTITUTE OF ENGINEERING &TECHNOLOGY"
+                        },
+                        {
+                            "id": 168,
+                            "name": "INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 169,
+                            "name": "I.T.S. ENGG.COLLEGE"
+                        },
+                        {
+                            "id": 170,
+                            "name": "VIVEKANAND INSTITUTE OF TECHNOLOGY & SCIENCE"
+                        },
+                        {
+                            "id": 171,
+                            "name": "ACCURATE INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 172,
+                            "name": "INNOVATIVE COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 173,
+                            "name": "VIDYA COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 174,
+                            "name": "DRONACHARYA GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 175,
+                            "name": "R.D.ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 176,
+                            "name": "R.K.PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 177,
+                            "name": "ALIGARH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 178,
+                            "name": "RAJEEV GANDHI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 179,
+                            "name": "SRI MADAN LAL INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 180,
+                            "name": "H.R.INSTITUTE OF HOTEL MANAGEMENT"
+                        },
+                        {
+                            "id": 181,
+                            "name": "ISHWARCHAND VIDYASAGAR INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 182,
+                            "name": "SUNDERDEEP ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 183,
+                            "name": "SHAMBHU NATH INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 184,
+                            "name": "COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 185,
+                            "name": "ANAND COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 186,
+                            "name": "HR INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 187,
+                            "name": "DAYANAND DEENANATH COLLEGE"
+                        },
+                        {
+                            "id": 188,
+                            "name": "IIMT COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 189,
+                            "name": "SAMS INSTITUTE OF HOTEL MANAGEMENT"
+                        },
+                        {
+                            "id": 190,
+                            "name": "SRI RAM COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 191,
+                            "name": "BHABHA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 192,
+                            "name": "DNS COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 193,
+                            "name": "INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 194,
+                            "name": "SUNDERDEEP PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 195,
+                            "name": "IBNE SEENA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 196,
+                            "name": "SHAKTI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 197,
+                            "name": "INSTITUTE OF PHARMACEUTICAL SCIENCE & RESEARCH"
+                        },
+                        {
+                            "id": 198,
+                            "name": "VIDYA SCHOOL OF BUSINESS"
+                        },
+                        {
+                            "id": 199,
+                            "name": "SIR MADAN LAL INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 200,
+                            "name": "LTR INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 201,
+                            "name": "SANJAY COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 202,
+                            "name": "SHERWOOD COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 203,
+                            "name": "BHARAT INSTITUTE OF TECHNOLOGY(MBA INSTITUTE)"
+                        },
+                        {
+                            "id": 204,
+                            "name": "GREATER NOIDA INSTITUTE OF TECHNOLOGY(MBA INSTITUTE)"
+                        },
+                        {
+                            "id": 205,
+                            "name": "NOIDA INSTITUTE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 206,
+                            "name": "NARMADESHWAR MANAGEMENT COLLEGE"
+                        },
+                        {
+                            "id": 207,
+                            "name": "PETRONAGE INSTITUTE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 208,
+                            "name": "APEX INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 209,
+                            "name": "J.P..INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 210,
+                            "name": "LDC INSTITUTE OF TECHNICAL STUDIES"
+                        },
+                        {
+                            "id": 211,
+                            "name": "UNITED INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 212,
+                            "name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 213,
+                            "name": "VISHVESHWARYA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 214,
+                            "name": "NARAINA COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 215,
+                            "name": "ABES INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 216,
+                            "name": "MEERUT INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 217,
+                            "name": "B.B.S. INSTITUTE OF PHARMECUTICAL & ALLIED SCIENCE"
+                        },
+                        {
+                            "id": 218,
+                            "name": "DOON COLLEGE OF EDUCATION"
+                        },
+                        {
+                            "id": 219,
+                            "name": "SARSWATI HIGHIER EDUCATION & TECHNICAL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 220,
+                            "name": "SAGAR INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 592,
+                            "name": "CITY COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 221,
+                            "name": "DR. M.C.SAXENA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 222,
+                            "name": "DISHA INSTITUTE OF SCIENCE AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 223,
+                            "name": "DAYANAND DEENA NATH COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 224,
+                            "name": "DR. RIZVI COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 225,
+                            "name": "DEEWAN V.S. INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 226,
+                            "name": "ABSS INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 227,
+                            "name": "UNITED INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 228,
+                            "name": "ARYAKUL COLLEGE OF PHARMACY & RESEARCH"
+                        },
+                        {
+                            "id": 229,
+                            "name": "VIDYA INSTITUTE OF FASHION TECHNOLOGY"
+                        },
+                        {
+                            "id": 230,
+                            "name": "RAKSHPAL BAHADUR COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 231,
+                            "name": "TRANSLAM INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 232,
+                            "name": "SPECTRUM INSTITUTE OF PHARMACEUTICAL SCIENCE & RESEARCH"
+                        },
+                        {
+                            "id": 233,
+                            "name": "ANJALI COLLEGE OF PHARMACY & SCIENCE"
+                        },
+                        {
+                            "id": 234,
+                            "name": "SUNDER DEEP COLLEGE OF HOTEL MANAGEMENT"
+                        },
+                        {
+                            "id": 235,
+                            "name": "SUNDER DEEP COLLEGE OF ARCHITECTURE"
+                        },
+                        {
+                            "id": 236,
+                            "name": "SARSWATI INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 237,
+                            "name": "DEVENDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 238,
+                            "name": "RAJ KUMAR GOEL INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 239,
+                            "name": "RISHI CHADHA VISWAS GIRLS INSTITUTE OF TECHNOLOGY FOR WOMEN"
+                        },
+                        {
+                            "id": 240,
+                            "name": "KP ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 241,
+                            "name": "ACN COLLEGE OF ENGINEERING & MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 242,
+                            "name": "VIVEKANANDA COLLEGE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 243,
+                            "name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 244,
+                            "name": "UNITED COLLEGE OF ENGINEERING & MANAGEMENT"
+                        },
+                        {
+                            "id": 245,
+                            "name": "SETH VISHAMBHAR NATH INSTITUTE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 246,
+                            "name": "PSIT COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 247,
+                            "name": "MAHARANA INSTITUTE OF PROFESSIONAL STUDIES"
+                        },
+                        {
+                            "id": 248,
+                            "name": "INDUS INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 249,
+                            "name": "KRISHNA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 250,
+                            "name": "APOLLO INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 251,
+                            "name": "BHABHA COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 252,
+                            "name": "RAMESHWARAM INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 253,
+                            "name": "GOEL INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 254,
+                            "name": "R.R.INSTITUTE OF MODERN TECHNOLOGY"
+                        },
+                        {
+                            "id": 255,
+                            "name": "LUCKNOW INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 256,
+                            "name": "AMBALIKA INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 257,
+                            "name": "S.P.MEMORIAL INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 258,
+                            "name": "NIKHIL INSTITUTE OF ENGINEERING & MANAGEMENT"
+                        },
+                        {
+                            "id": 259,
+                            "name": "SHANTI INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 260,
+                            "name": "NEELKANTH INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 261,
+                            "name": "RISHI INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 262,
+                            "name": "GYAN BHARTI INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 263,
+                            "name": "MODINAGAR INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 264,
+                            "name": "KAMLA NEHRU INSTITUTE OF PHYSICAL & SOCIAL SCIENCES"
+                        },
+                        {
+                            "id": 265,
+                            "name": "RAJARSHI RANANJAY SINGH INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 266,
+                            "name": "SARASWATI HIGHER EDUCATION & TECHNICAL COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 267,
+                            "name": "SR GROUP OF INSTITUTIONS (COLLEGE OF PHARMACY)"
+                        },
+                        {
+                            "id": 268,
+                            "name": "OXFORD COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 269,
+                            "name": "K.R.S. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 270,
+                            "name": "MAHATMA GANDHI INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 271,
+                            "name": "GOEL INSTITUTE OF PHARMACY & SCIENCES"
+                        },
+                        {
+                            "id": 272,
+                            "name": "VARANASI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 273,
+                            "name": "COLLEGE OF BUSINESS STUDIES"
+                        },
+                        {
+                            "id": 274,
+                            "name": "VTECH INSTITUE OF INTEGRATED TECHNOLOGY"
+                        },
+                        {
+                            "id": 275,
+                            "name": "ARYAKUL COLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 276,
+                            "name": "TDL COLLEGE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 277,
+                            "name": "BHALCHNDRA INSTITUTE OF EDUCATION & MANAGEMENT"
+                        },
+                        {
+                            "id": 278,
+                            "name": "K.R.S. COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 279,
+                            "name": "CHANDRAMAULI INSTITUTE OF MANAGEMENT SCIENCES & TECHNOLOGY"
+                        },
+                        {
+                            "id": 280,
+                            "name": "RSD ACADEMY"
+                        },
+                        {
+                            "id": 281,
+                            "name": "HMFA MEMORIAL INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 282,
+                            "name": "ARYAN INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 283,
+                            "name": "BHAGWATI INSTITUTE OF TECHNOLOGY & SCIENCE"
+                        },
+                        {
+                            "id": 284,
+                            "name": "PRABHAT ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 285,
+                            "name": "BANSAL INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 286,
+                            "name": "SCHOOL OF MANAGEMENT SCIENCE (SMS INSTITUTE OF TECHNOLOGY)"
+                        },
+                        {
+                            "id": 287,
+                            "name": "MEERUT INTERNATIONAL INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 288,
+                            "name": "MAHATMA GANDHI UNIVERSE INSTITUTE(MGUI)"
+                        },
+                        {
+                            "id": 289,
+                            "name": "KASHI INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 290,
+                            "name": "NARAINA VIDYA PEETH ENGINEERING & MANAGEMENT INSTITUTE"
+                        },
+                        {
+                            "id": 291,
+                            "name": "MAHARANA INSTITUTE OF TECH. & SCIENCES"
+                        },
+                        {
+                            "id": 292,
+                            "name": "B.N.COLLEGE OF ENGINEERING & TECHNOLOGY(BNCET)"
+                        },
+                        {
+                            "id": 293,
+                            "name": "JAGARAN INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 294,
+                            "name": "VIVEK COLLEGE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 295,
+                            "name": "NARAYAN VIDYA PEETH MANAGEMENT INSTITUTE"
+                        },
+                        {
+                            "id": 296,
+                            "name": "CENTRAL INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 297,
+                            "name": "SARDAR BHAGAT SINGH COLLEGE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 298,
+                            "name": "MAHAVIR INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 299,
+                            "name": "DR. RAM MANOHAR LOHIA INSTITUTE"
+                        },
+                        {
+                            "id": 300,
+                            "name": "INSTITUTE OF PROFESSIONAL STUDIES & RESEARCH"
+                        },
+                        {
+                            "id": 301,
+                            "name": "GOKARAN NARVADESHWAR INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 302,
+                            "name": "NEELAM COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 303,
+                            "name": "SRI RAMMURTI SMARAK COLLEGE OF ENGINEERING TECHNOLOGY & RESEARCH"
+                        },
+                        {
+                            "id": 304,
+                            "name": "KUNWAR HARIBANSH SINGH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 305,
+                            "name": "NAVNEET COLLEGE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 306,
+                            "name": "PRATAP COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 307,
+                            "name": "HIMALAYAN INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 308,
+                            "name": "MADHU VACHASPATI INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 309,
+                            "name": "ESHAN COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 310,
+                            "name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 311,
+                            "name": "G.C.R.G. MEMORIAL TRUST S GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 312,
+                            "name": "SHRI SIDHI VINAYAK INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 313,
+                            "name": "SHRI JEET RAM SMARAK INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 314,
+                            "name": "FUTURE INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 315,
+                            "name": "RAJSHREE INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 316,
+                            "name": "NORTH INDIA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 317,
+                            "name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 318,
+                            "name": "LUCKNOW MODEL INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 319,
+                            "name": "S.R.INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 320,
+                            "name": "A.N.A.COLLEGE OF ENGINEERING & MANAGEMENT"
+                        },
+                        {
+                            "id": 321,
+                            "name": "PANCHWATI INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 322,
+                            "name": "SHRI NATH JI INSTITUTE FOR TECHNICAL EDUCATION"
+                        },
+                        {
+                            "id": 323,
+                            "name": "SUYASH INSTITUTE OF INFORMATION TECHNOLOGY"
+                        },
+                        {
+                            "id": 324,
+                            "name": "KCC Institute of Technology & Management"
+                        },
+                        {
+                            "id": 325,
+                            "name": "MAHARAJA AGRASEN COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 326,
+                            "name": "FIT ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 327,
+                            "name": "DELHI INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 328,
+                            "name": "VEER KUNWAR INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 329,
+                            "name": "R.V.INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 330,
+                            "name": "DEV BHOOMI GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 331,
+                            "name": "ALLENHOUSE INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 332,
+                            "name": "BABU BANARASI DAS ENGINEERING"
+                        },
+                        {
+                            "id": 333,
+                            "name": "G.L.BAJAJ GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 334,
+                            "name": "FACULTY OF ENGINEERING SHANTI NIKETAN TRUST S GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 335,
+                            "name": "KAILASH INSTITUTE OF PHARMACY & MANAGEMENT"
+                        },
+                        {
+                            "id": 336,
+                            "name": "KIPM COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 337,
+                            "name": "SSLD VARSHNEY ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 338,
+                            "name": "INDRAPRASTHA INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 339,
+                            "name": "KOTHIWAL INSTITUTE OF TECHNOLOGY & PROFESSIONAL STUDIES"
+                        },
+                        {
+                            "id": 340,
+                            "name": "MAHARANA PRATAAP COLLEGE OF ENGINEERING"
+                        },
+                        {
+                            "id": 341,
+                            "name": "VISION INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 342,
+                            "name": "VISION INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 343,
+                            "name": "BUDDHA INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 344,
+                            "name": "SUNRISE INSTITUTE OF ENGINEERING TECHNICAL & MANAGEMENT"
+                        },
+                        {
+                            "id": 345,
+                            "name": "SAROJ INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 346,
+                            "name": "RV NORTHLAND INSTITUE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 347,
+                            "name": "MAHAVEER INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 348,
+                            "name": "RAJENDRA PRASAD COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 349,
+                            "name": "SHREE JI BABA INSTITUE OF PROFESSIONAL STUDIES"
+                        },
+                        {
+                            "id": 350,
+                            "name": "AKS MANAGEMENT COLLEGE"
+                        },
+                        {
+                            "id": 351,
+                            "name": "KRISHNA INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 352,
+                            "name": "AMARDEEP COLLEGE OF ENGINEERING & MANAGEMENT"
+                        },
+                        {
+                            "id": 353,
+                            "name": "KALKA ENGINEERING COLLEGE"
+                        },
+                        {
+                            "id": 354,
+                            "name": "JAHANGIRABAD EDUCATIONAL TRUST S GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 355,
+                            "name": "CHAUDHARY BEERI SINGH COLLEGE OF ENGINEERING & MANAGEMENT"
+                        },
+                        {
+                            "id": 356,
+                            "name": "DEWAN V.S. INSTITUTE OF HOTEL MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 357,
+                            "name": "RADHA GOVIND INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 358,
+                            "name": "KANPUR INSTITUTE OF TECHNOLOGY & PHARMACY"
+                        },
+                        {
+                            "id": 359,
+                            "name": "KASHI INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 360,
+                            "name": "CHANDRA SHEKHAR SINGH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 361,
+                            "name": "NARAINA VIDYA PEETH  GROUP OF INSTITUTIONS FACULTY OF PHARMACY"
+                        },
+                        {
+                            "id": 362,
+                            "name": "SHANTI NIKETAN TRUST S GROUP OF INSTITUTIONA"
+                        },
+                        {
+                            "id": 363,
+                            "name": "HARI COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 364,
+                            "name": "FUTURE INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 365,
+                            "name": "BORA INSTITUTE OF MANAGEMENT SCIENCE"
+                        },
+                        {
+                            "id": 366,
+                            "name": "SETH SRI NIVAS AGRAWAL INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 367,
+                            "name": "DR. B.R.AMBEDKAR POOJA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 368,
+                            "name": "LUCKNOW INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 369,
+                            "name": "MALTI MEMORIAL TRUSTS CSM GROUP OF INSTITUTIONS FACULTY OF B.PHARMACY"
+                        },
+                        {
+                            "id": 370,
+                            "name": "CSM GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 371,
+                            "name": "HLM COLLEGE"
+                        },
+                        {
+                            "id": 372,
+                            "name": "SHRI GIRAIRAJ MAHARAJ INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 373,
+                            "name": "SUN INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 374,
+                            "name": "LAKSHYA INSTITUTE OF MANAGEMENT & INFORMATION TECHNOLOGY"
+                        },
+                        {
+                            "id": 375,
+                            "name": "BANSHI COLLEGE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 376,
+                            "name": "DEV BHOOMI GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 377,
+                            "name": "PRINCE INSTITUTE OF INNOVATIVE TECHNOLOGY"
+                        },
+                        {
+                            "id": 378,
+                            "name": "VINAYAK VIDYAPEETH"
+                        },
+                        {
+                            "id": 379,
+                            "name": "SRAJAN INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 380,
+                            "name": "KHANDELWAL COLLEGE OF ARCHITECTURE & DESIGN"
+                        },
+                        {
+                            "id": 381,
+                            "name": "MORADABD EDUCATIONAL TRUST(MET) GROUP OF INSTITUTIONS FACULTY OF PHARMACY"
+                        },
+                        {
+                            "id": 382,
+                            "name": "JAHANGIRABAD EDUCATIONAL TRUST S GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 383,
+                            "name": "AASHLAR BUSINESS SCHOOL"
+                        },
+                        {
+                            "id": 384,
+                            "name": "SRI RLT INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 385,
+                            "name": "PREM PRAKASH GUPTA INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 386,
+                            "name": "UNNATI MANAGEMENT COLLEGE"
+                        },
+                        {
+                            "id": 387,
+                            "name": "DR VIRENDRA SWAROOP INSTITUTE OF PROFESSIONAL STUDIES"
+                        },
+                        {
+                            "id": 388,
+                            "name": "J P SCHOOL OF BUSINESS"
+                        },
+                        {
+                            "id": 389,
+                            "name": "SHREE SATYA INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 390,
+                            "name": "UTTAM INSTITUTE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 391,
+                            "name": "GCRG MEMORIAL TRUST S GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 392,
+                            "name": "DEV BHOOMI GROUP OF INSTITUTIONS FACULTY OF MANAGEMENT"
+                        },
+                        {
+                            "id": 393,
+                            "name": "MODERN INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 394,
+                            "name": "BHARTI INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 395,
+                            "name": "SANSKAR COLLEGE OF MANAGEMENT & COMPUTER APPLICATION"
+                        },
+                        {
+                            "id": 396,
+                            "name": "MORADABAD EDUCATIONAL TRUST(MET) \"GROUP OF INSTITUTIONS\" FACULTY OF B.ARCHITECTURE"
+                        },
+                        {
+                            "id": 397,
+                            "name": "SAHARANPUR INSTITUTE OF ADVANCE STUDIES"
+                        },
+                        {
+                            "id": 398,
+                            "name": "DR. VIRENDRA SWARUP MEMORIAL TRUST GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 399,
+                            "name": "ASHOKA INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 400,
+                            "name": "ABHAY MEMORIAL TRUST GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 401,
+                            "name": "SVS GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 402,
+                            "name": "IDEAL INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 403,
+                            "name": "INDRAPRASRH INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 404,
+                            "name": "BABU SUNDER SINGH INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 405,
+                            "name": "MG INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 406,
+                            "name": "PREM PRAKASH GUPTA INSTITUTE OF ENGINEERING"
+                        },
+                        {
+                            "id": 407,
+                            "name": "KRISHNAPIT INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 408,
+                            "name": "HERITAGE INSTIUTE OF HOTEL & TOURISM"
+                        },
+                        {
+                            "id": 409,
+                            "name": "GOEL INSTITUTE OF HIGHER STUDIES"
+                        },
+                        {
+                            "id": 410,
+                            "name": "KRISHNARPIT INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 411,
+                            "name": "SS INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 412,
+                            "name": "SRM BUSINESS SCHOOL"
+                        },
+                        {
+                            "id": 413,
+                            "name": "LUCKNOW MODEL INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 414,
+                            "name": "BRAHMANAND GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 415,
+                            "name": "ITM SCHOOL OF ARCHITECTURE & TOWN PLANNING"
+                        },
+                        {
+                            "id": 416,
+                            "name": "ITM SCHOOL OF MANAGEMENT"
+                        },
+                        {
+                            "id": 417,
+                            "name": "ITERC COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 418,
+                            "name": "CITY COLLEGE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 419,
+                            "name": "LIOYD BUSINESS SCHOOL"
+                        },
+                        {
+                            "id": 420,
+                            "name": "BIMT COLLEGE"
+                        },
+                        {
+                            "id": 421,
+                            "name": "ACCURATE INSTITUTE OF ADVANCE MANAGEMENT"
+                        },
+                        {
+                            "id": 422,
+                            "name": "ANA COLLEGE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 423,
+                            "name": "DEV PRAYAG INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 424,
+                            "name": "INSTITUTE OF INFORMATION MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 425,
+                            "name": "SKY LINE INSTITUTE OF MANAGEMNT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 426,
+                            "name": "SRI RAM GROUP OF COLLEGES"
+                        },
+                        {
+                            "id": 427,
+                            "name": "AGRA PUBLIC COLLEGE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 428,
+                            "name": "DWARIKADHEESH RESEARCH EDUCATION & MANAGEMENT SCHOOL"
+                        },
+                        {
+                            "id": 429,
+                            "name": "MIT COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 430,
+                            "name": "SHRI SIDDHI VINAYAK INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 431,
+                            "name": "JMS GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 432,
+                            "name": "SSLD VARSHNEY INSTITUTE OF MANAGEMENT & ENGINEERING"
+                        },
+                        {
+                            "id": 433,
+                            "name": "CH. HARCHAND SINGH COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 434,
+                            "name": "VISHVESHWARYA COLLEGE OF EDUCATION"
+                        },
+                        {
+                            "id": 435,
+                            "name": "KANPUR INSTITUTE OF MANAGEMENT STUDIES"
+                        },
+                        {
+                            "id": 436,
+                            "name": "SR GROUP OF INSTITUTIONS(COLLEGE OF ENGINEERING MANAGEMENT & TECHNOLOGY)"
+                        },
+                        {
+                            "id": 437,
+                            "name": "FMG ACADEMY GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 438,
+                            "name": "AXIS INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 439,
+                            "name": "AXIS INSTITUTE OF FASHION TECHNOLOGY"
+                        },
+                        {
+                            "id": 440,
+                            "name": "AXIS INSTITUTE OF ARCHITECTURE"
+                        },
+                        {
+                            "id": 441,
+                            "name": "AXIS BUSINES SCHOOL"
+                        },
+                        {
+                            "id": 442,
+                            "name": "AXIS INSTITUTE OF PLANNING & MANAGEMENT"
+                        },
+                        {
+                            "id": 443,
+                            "name": "INSTITUTE OF MANAGEMENT & SCIENCE"
+                        },
+                        {
+                            "id": 444,
+                            "name": "SHAMBHUNATH INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 445,
+                            "name": "RUDRA GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 446,
+                            "name": "HIGH RANK BUSINESS SCHOOL"
+                        },
+                        {
+                            "id": 447,
+                            "name": "PRAYAG INSTITUTE OF TECHNOLOGY & MANAGEMENT"
+                        },
+                        {
+                            "id": 448,
+                            "name": "J.K.INSTITUTE OF PHARMACY & MANAGEMENT"
+                        },
+                        {
+                            "id": 449,
+                            "name": "BHAVDIYA INSTITUTE OF BUSINESS MANAGEMENT"
+                        },
+                        {
+                            "id": 450,
+                            "name": "SRI RAMMURTI SMARAK COLLEGE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 451,
+                            "name": "KUNWAR HARIBANSH SINGH INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 452,
+                            "name": "RAJ SCHOOL OF MANAGEMENT & SCIENCES"
+                        },
+                        {
+                            "id": 453,
+                            "name": "MADHU VACHASPATI SCHOOL OF MANAGEMENT"
+                        },
+                        {
+                            "id": 454,
+                            "name": "KIPM COLLEGE OF ENGG. & TECHNOLOGY"
+                        },
+                        {
+                            "id": 455,
+                            "name": "NANDINI NAGAR TECHNICAL CAMPUS"
+                        },
+                        {
+                            "id": 456,
+                            "name": "LAKSHYA TECHNICAL CAMPUS"
+                        },
+                        {
+                            "id": 457,
+                            "name": "DNM INSTITUTE OF ENGINEERING & TECHNOLOGY"
+                        },
+                        {
+                            "id": 458,
+                            "name": "INSTITUTE OF MANAGEMENT RESEARCH & TECHNOLOGY"
+                        },
+                        {
+                            "id": 459,
+                            "name": "UTKARSH COLLEGE OF MANAGEMENT EDUCATION"
+                        },
+                        {
+                            "id": 460,
+                            "name": "DR. OM PRAKASH INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 461,
+                            "name": "LOTUS INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 462,
+                            "name": "MAA VAISHNO DEVI EDUCATIONAL & LAW COLLEGE"
+                        },
+                        {
+                            "id": 463,
+                            "name": "NOBLE INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 464,
+                            "name": "MAA BHAGWATA KUNWAR INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 465,
+                            "name": "SMT. FULEHRA SMARAK COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 466,
+                            "name": "PURVANCHAL INSTITUTE OF ARCHITECTURE & DESIGN"
+                        },
+                        {
+                            "id": 467,
+                            "name": "LANDMARK TECHNICAL CAMPUS"
+                        },
+                        {
+                            "id": 468,
+                            "name": "HARDAYAL TECHNICAL CAMPUS"
+                        },
+                        {
+                            "id": 469,
+                            "name": "R.D.ENGINEERING COLLEGE RESEARCH CENTRE"
+                        },
+                        {
+                            "id": 470,
+                            "name": "G & R INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 471,
+                            "name": "MANGALMAY INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 472,
+                            "name": "DAYANNAD VIDYAPEETH EDUCATION"
+                        },
+                        {
+                            "id": 473,
+                            "name": "SCHOOL OF BUSINESS MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 474,
+                            "name": "DISHA BHARTI COLLEGE OF MANAGEMENT & EDUCATION"
+                        },
+                        {
+                            "id": 475,
+                            "name": "INSTITUTE OF ADVANCED MANAGEMENT & RESEARCH"
+                        },
+                        {
+                            "id": 476,
+                            "name": "ADHUNIK COLLEGE OF ENGG."
+                        },
+                        {
+                            "id": 477,
+                            "name": "ADHUNIK INSTITUTE OF PRODUCTIVITY MANAGEMENT & RESEARCH"
+                        },
+                        {
+                            "id": 478,
+                            "name": "ANAND COLLEGE OF ARCHITECTURE"
+                        },
+                        {
+                            "id": 479,
+                            "name": "ACE COLLEGE OF ENGINEERING & MANAGEMENT"
+                        },
+                        {
+                            "id": 480,
+                            "name": "JAGMOHAN INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 481,
+                            "name": "G.L.BAJAJ INSTITUTE OF MANAGEMENT & RESEARCH"
+                        },
+                        {
+                            "id": 482,
+                            "name": "NITRA TECHNICAL CAMPUS"
+                        },
+                        {
+                            "id": 483,
+                            "name": "GREATER NOIDA INSTITUTE OF BUSINESS MAAGEMENT"
+                        },
+                        {
+                            "id": 484,
+                            "name": "APS COLLEGE OF EDUCATION & TECHNOLOGY"
+                        },
+                        {
+                            "id": 485,
+                            "name": "ACCURATE INSTITUTE OF ARCHITECTURE & PLANNING"
+                        },
+                        {
+                            "id": 486,
+                            "name": "GREATER NOIDA COLLEGE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 487,
+                            "name": "FORTH DIMENTION COLLEGE OF ARCHITECTURE"
+                        },
+                        {
+                            "id": 488,
+                            "name": "CBS COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 489,
+                            "name": "AMANI GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 490,
+                            "name": "AR INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 491,
+                            "name": "AJAY KUMAR GARG INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 492,
+                            "name": "MAHAVEER COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 493,
+                            "name": "ESHAN COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 494,
+                            "name": "IMS"
+                        },
+                        {
+                            "id": 495,
+                            "name": "SANSKAR COLLEGE OF ARCHITECTURE & PLANNING"
+                        },
+                        {
+                            "id": 496,
+                            "name": "MASCOT INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 497,
+                            "name": "DAYAL GROUP OF INSTITUTIONS"
+                        },
+                        {
+                            "id": 498,
+                            "name": "IILM ACADEMY OF HIGHIER LEARNING"
+                        },
+                        {
+                            "id": 499,
+                            "name": "DEVIDAYAL MEMORIAL INSTITUTIONS"
+                        },
+                        {
+                            "id": 500,
+                            "name": "INTEGRATED ACADEMY OF MANAGEMENT & TECHNOLOGY(INMANTEC)"
+                        },
+                        {
+                            "id": 501,
+                            "name": "LTR INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 502,
+                            "name": "BHAGWANT INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 503,
+                            "name": "DEVRISHI INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 504,
+                            "name": "JANTA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 505,
+                            "name": "KRISHNA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 506,
+                            "name": "SANSKAR COLLEGE OF PHARMACY & RESEARCH"
+                        },
+                        {
+                            "id": 507,
+                            "name": "PSIT COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 508,
+                            "name": "ISABELLA THOBURN COLLEGE (PROFESSIONAL STUDIES)"
+                        },
+                        {
+                            "id": 509,
+                            "name": "FUTURE INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 510,
+                            "name": "BHAVDIYA INSTITUTE OF PHARMACEUTICAL SCIENCES AND RESEARCH"
+                        },
+                        {
+                            "id": 511,
+                            "name": "METRO COLLEGE OF HEALTH SCIENCES & RESEARCH"
+                        },
+                        {
+                            "id": 512,
+                            "name": "NARAINA SCHOOL OF PLANNING & ARCHITECTURE"
+                        },
+                        {
+                            "id": 513,
+                            "name": "SAHARANPUR PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 514,
+                            "name": "SHRI RAWATPURA SARKAR INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 515,
+                            "name": "VEER VIJAY PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 516,
+                            "name": "MESCO INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 517,
+                            "name": "RAHUL SANKRITYAYAN COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 518,
+                            "name": "SARAS COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 519,
+                            "name": "SETH VISHAMBHAR NATH INSTITUTE OF PHARMACEUTICAL SCIENCES"
+                        },
+                        {
+                            "id": 520,
+                            "name": "SETH VISHAMBHAR NATH INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 521,
+                            "name": "TRC MAHAVIDYALAYA"
+                        },
+                        {
+                            "id": 522,
+                            "name": "AUROUS INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 523,
+                            "name": "A.N.A INSTITUTE OF PHARMACEUTICAL SCIENCES & RESEARCH"
+                        },
+                        {
+                            "id": 524,
+                            "name": "S.R. INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 525,
+                            "name": "STELLER INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 526,
+                            "name": "KRISHNA INSTITUTE"
+                        },
+                        {
+                            "id": 527,
+                            "name": "D.N. COLLEGE"
+                        },
+                        {
+                            "id": 528,
+                            "name": "HILLWOOD MEDICAL SCHOOL"
+                        },
+                        {
+                            "id": 529,
+                            "name": "DR. OM PRAKASH SCHOOL OF PHARMACY"
+                        },
+                        {
+                            "id": 530,
+                            "name": "SHIV BALI SINGH GROUP OF EDUCATIONAL AND TRAINING INSTITUTE COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 531,
+                            "name": "CH. CHARAN SINGH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 532,
+                            "name": "SKYLINE INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 533,
+                            "name": "MAHARISHI INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 534,
+                            "name": "BBDIT COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 535,
+                            "name": "D. J. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 536,
+                            "name": "DR. RAM MANOHAR LOHIA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 537,
+                            "name": "LUTAWAN INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 538,
+                            "name": "SATYADEO COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 539,
+                            "name": "TAHIRA INSTITUTE OF MEDICAL SCIENCES"
+                        },
+                        {
+                            "id": 540,
+                            "name": "R.D.S COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 541,
+                            "name": "YOGENDRA NATH SAXENA COLLEGE OF PHARMACY & RESEARCH"
+                        },
+                        {
+                            "id": 542,
+                            "name": "VISION INSTITUTE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 543,
+                            "name": "SANSKRITI COLLEGE OF HIGHER EDUCATION AND STUDIES"
+                        },
+                        {
+                            "id": 544,
+                            "name": "MAHARANA PRATAP COLLEGE OF PHARMACEUTICAL SCIENCES"
+                        },
+                        {
+                            "id": 545,
+                            "name": "LATE RAVINDRANAND BARONIA COLLEGE OF PHARMACY MAHRONI"
+                        },
+                        {
+                            "id": 546,
+                            "name": "F I PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 547,
+                            "name": "GCRG COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 548,
+                            "name": "GSRM MEMORIAL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 549,
+                            "name": "HYGIA INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 550,
+                            "name": "J. P. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 551,
+                            "name": "JAN KALYAN INSTITUTE OF TECHNICAL EXCELLENCE"
+                        },
+                        {
+                            "id": 552,
+                            "name": "YASH RAJ INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 553,
+                            "name": "SRI SHARDA INSTITUTE OF MANAGEMENT AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 554,
+                            "name": "ITM COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 555,
+                            "name": "DIVYA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 556,
+                            "name": "NSS COLLEGE OF MANAGEMENT"
+                        },
+                        {
+                            "id": 557,
+                            "name": "APS COLLEGE OF EDUCATION"
+                        },
+                        {
+                            "id": 558,
+                            "name": "APEX INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 559,
+                            "name": "VINDHYA GURUKUL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 560,
+                            "name": "R. K. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 561,
+                            "name": "SUYASH INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 562,
+                            "name": "NOIDA INSTITUTE OF ENGG. & TECHNOLOGY(PHARMACY INSTITUTE)"
+                        },
+                        {
+                            "id": 563,
+                            "name": "MAA BHAGWATI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 564,
+                            "name": "SAI MEER COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 565,
+                            "name": "SARVODHYA ADARSH PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 566,
+                            "name": "SHRI SIDDHI VINAYAK COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 567,
+                            "name": "ABESIT COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 568,
+                            "name": "RJ COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 569,
+                            "name": "MAA GAYATRI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 570,
+                            "name": "MAYA INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 571,
+                            "name": "R.K. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 572,
+                            "name": "M.G.B. RAJAT COLLEGE OF PHARMACY AND MANAGEMENT"
+                        },
+                        {
+                            "id": 573,
+                            "name": "B N COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 574,
+                            "name": "RAMDENI SINGH JAGDISH SINGH MEMORIAL SAMITI"
+                        },
+                        {
+                            "id": 575,
+                            "name": "SWAMI SAHAJANAND COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 576,
+                            "name": "S.S.S. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 577,
+                            "name": "S. K. MISHRA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 578,
+                            "name": "BHAGWAN ADARSH PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 579,
+                            "name": "BABU SATIRAM JAIKARAN SMARAK PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 580,
+                            "name": "MATA DULARI DEVI PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 581,
+                            "name": "B. N. PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 582,
+                            "name": "J.D. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 583,
+                            "name": "SHRI KASHI CHANDRADEV YADAV PHARMCY COLLEGE"
+                        },
+                        {
+                            "id": 584,
+                            "name": "JAINATH MEMORIAL PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 585,
+                            "name": "VINAYAK PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 586,
+                            "name": "BUDDHA INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 587,
+                            "name": "PRABHAKAR COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 588,
+                            "name": "PT. NAGINA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 589,
+                            "name": "KRISHNA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 590,
+                            "name": "BHAGWATI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 591,
+                            "name": "MAA MATURNI DEVI MAHAVIDYALAY"
+                        },
+                        {
+                            "id": 593,
+                            "name": "RAM NAGINA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 594,
+                            "name": "SAGAR COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 595,
+                            "name": "CITY SCHOOL OF PHARMACY"
+                        },
+                        {
+                            "id": 596,
+                            "name": "BHAGWAN SINGH INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 597,
+                            "name": "NANDLAL PRABHU DEVI PROFESSIONAL INSTITUTE"
+                        },
+                        {
+                            "id": 598,
+                            "name": "S.N.A. INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 599,
+                            "name": "JAGMEET MEMORIAL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 600,
+                            "name": "DR. RAJENDRA PRASAD SIKSHAN SANSTHAN GANGCHAULI"
+                        },
+                        {
+                            "id": 601,
+                            "name": "POINEER INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 602,
+                            "name": "UNIVERSAL INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 603,
+                            "name": "IIF BUSINESS SCHOOL"
+                        },
+                        {
+                            "id": 604,
+                            "name": "INDU PRAKASH PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 605,
+                            "name": "ACME INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 606,
+                            "name": "PT RAJENDRA PRASAD SMARAK COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 607,
+                            "name": "SAMAHI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 608,
+                            "name": "KRITIKA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 609,
+                            "name": "ARYA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 610,
+                            "name": "LOTUS INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 611,
+                            "name": "R. C. C. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 612,
+                            "name": "PRADUMAN SINGH SHIKSHAN PRASHIKSHAN SANSTHAN PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 613,
+                            "name": "GOEL INSTITUTE OF PHARMACEUTICAL SCIENCES"
+                        },
+                        {
+                            "id": 614,
+                            "name": "LAKSHYA COLLEGE OF MANAGEMENT AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 615,
+                            "name": "VEER KUNWAR COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 616,
+                            "name": "R. K. INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 617,
+                            "name": "PRATHVIRAJ CHAUHAN INSTITUTE OF MEDICAL SCIENCES"
+                        },
+                        {
+                            "id": 618,
+                            "name": "LBSS DEGREE COLLEGE"
+                        },
+                        {
+                            "id": 619,
+                            "name": "S.P. COLLEGE OF PHARMACEUTICAL SCIENCE & RESEARCH"
+                        },
+                        {
+                            "id": 620,
+                            "name": "ROOTS INSTITUTE OF PROFESSIONAL EDUCATION"
+                        },
+                        {
+                            "id": 621,
+                            "name": "A R INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 622,
+                            "name": "SHIKHAR INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 623,
+                            "name": "L.N.PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 624,
+                            "name": "LPM COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 625,
+                            "name": "BPS EDUCATIONAL INSTITUTION OF PHARMACY"
+                        },
+                        {
+                            "id": 626,
+                            "name": "FACULTY OF PHARMACY FUTURE INSTITUTE OF MEDICAL SCIENCES"
+                        },
+                        {
+                            "id": 627,
+                            "name": "CH. SUGHAR SINGH PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 628,
+                            "name": "URMILA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 629,
+                            "name": "MAA SHARDA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 630,
+                            "name": "SHAKUNTALA DEVI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 631,
+                            "name": "DR PUSHPENDRA SINGH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 632,
+                            "name": "TH. YUGRAJ SINGH PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 633,
+                            "name": "PARMARTH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 634,
+                            "name": "AMARDEEP COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 635,
+                            "name": "MAHALAXMI INSTITUTE OF MANAGEMENT & TECHNOLOGY"
+                        },
+                        {
+                            "id": 636,
+                            "name": "ASHA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 637,
+                            "name": "ORLEAN COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 638,
+                            "name": "GNIT COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 639,
+                            "name": "ACCURATE COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 640,
+                            "name": "VISHVESHWARYA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 641,
+                            "name": "COLLEGE OF PHARMACY JSS ACADEMY OF TECHNICAL EDUCATION"
+                        },
+                        {
+                            "id": 642,
+                            "name": "UNITED COLLEGE OF ENGINEERING AND RESEARCH(PHARMACY)"
+                        },
+                        {
+                            "id": 643,
+                            "name": "DR. VIRENDRA SWARUP MEMORIAL TRUST GROUP OF INSTITUIONS"
+                        },
+                        {
+                            "id": 644,
+                            "name": "MAA SARASWATI PARAMEDICAL INSTITUTE"
+                        },
+                        {
+                            "id": 645,
+                            "name": "VISHWANATH INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 646,
+                            "name": "S.G.M. INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 647,
+                            "name": "SHRI RAJENDAR SINGH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 648,
+                            "name": "I. D. MEMORIAL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 649,
+                            "name": "TECHNO INSTITUTE OF MANAGEMENT SCIENCES"
+                        },
+                        {
+                            "id": 650,
+                            "name": "HAKIKULLAH CHAUDARY COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 651,
+                            "name": "CROSS BELLY COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 652,
+                            "name": "CENTRAL INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 653,
+                            "name": "BABA RAMDAL SURAJDEV PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 654,
+                            "name": "SHRI RAMESHWAR COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 655,
+                            "name": "D. R. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 656,
+                            "name": "JIVIKA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 657,
+                            "name": "B S COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 658,
+                            "name": "RAM SINGH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 659,
+                            "name": "R B GAUTAM COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 660,
+                            "name": "R.G. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 661,
+                            "name": "R. P. S. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 662,
+                            "name": "GHAUSIA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 663,
+                            "name": "BHARTIYA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 664,
+                            "name": "KRISHNA INSTITUTE OF PHARMACY AND SCIENCES"
+                        },
+                        {
+                            "id": 665,
+                            "name": "SIGNA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 666,
+                            "name": "RADHA KRISHNA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 667,
+                            "name": "ADVANCE COLLEGE OF EDUCATION"
+                        },
+                        {
+                            "id": 668,
+                            "name": "SHRI VISHNU BHAGWAN COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 669,
+                            "name": "BHAGWAN AADINATH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 670,
+                            "name": "AMBEKESHWAR INSTITUTE OF PHARMACEUTICAL SCIENCES"
+                        },
+                        {
+                            "id": 671,
+                            "name": "S. N. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 672,
+                            "name": "K. J. COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 673,
+                            "name": "SEIKO COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 674,
+                            "name": "ANKERITE COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 675,
+                            "name": "LUCKNOW MODEL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 676,
+                            "name": "GEETA PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 677,
+                            "name": "BABU YUGRAJ SINGH PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 678,
+                            "name": "SHRI RAM COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 679,
+                            "name": "HARSHA INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 680,
+                            "name": "SRC PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 681,
+                            "name": "K D C COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 682,
+                            "name": "UNNATI PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 683,
+                            "name": "SHRI BABULAL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 684,
+                            "name": "MAA LILAWATI SUDESHWARI INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 685,
+                            "name": "R.A.S. INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 686,
+                            "name": "DEPARTMENT OF PHARMACY MEERUT INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 687,
+                            "name": "UMALOK COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 688,
+                            "name": "ABSS INSTITUTE OF TECHNOLOGY"
+                        },
+                        {
+                            "id": 689,
+                            "name": "SHARDA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 690,
+                            "name": "SAVITA DEVI INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 691,
+                            "name": "RUDRA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 692,
+                            "name": "DRON COLLEGE OF EDUCATION"
+                        },
+                        {
+                            "id": 693,
+                            "name": "SAMARTH INSTITUTE FOR EDUCATION AND TECHNOLOGY"
+                        },
+                        {
+                            "id": 694,
+                            "name": "NGI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 695,
+                            "name": "KATYAYANI COLLEGE OF EDUCATION"
+                        },
+                        {
+                            "id": 696,
+                            "name": "OM SAI VINDHYA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 697,
+                            "name": "KRISHAK COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 698,
+                            "name": "MIT COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 699,
+                            "name": "R.N.COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 700,
+                            "name": "SHREE JI INSTITUTE OF PHARMACEUTICAL EDUCATION AND RESEARCH"
+                        },
+                        {
+                            "id": 701,
+                            "name": "RADHA GOVIND COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 702,
+                            "name": "R.S.D. ACADEMY (COLLEGE OF PHARMACY)"
+                        },
+                        {
+                            "id": 703,
+                            "name": "RIDDHI SIDDHI INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 704,
+                            "name": "ADESH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 705,
+                            "name": "JYOTIRADITYA INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 706,
+                            "name": "DEV BHOOMI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 707,
+                            "name": "HARI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 708,
+                            "name": "KINETIC INSTITUTE"
+                        },
+                        {
+                            "id": 709,
+                            "name": "DR R M L INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 710,
+                            "name": "J D S R INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 711,
+                            "name": "SHRI SANTAN PAL SINGH PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 712,
+                            "name": "R A INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 713,
+                            "name": "SHREE KRISHNA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 714,
+                            "name": "K. P. SINGH MEMORIAL INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 715,
+                            "name": "J.S.SINGH INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 716,
+                            "name": "JAHANGIRABAD INSTITUTE OF TECHNOLOGY FACULTY OF PHARMACY"
+                        },
+                        {
+                            "id": 717,
+                            "name": "PHARMA DEPT SR FOUNDATION JEE COLLEGE OF EDUCATION AND TRAINING"
+                        },
+                        {
+                            "id": 718,
+                            "name": "DR H R BACHHAN COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 719,
+                            "name": "MISSION COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 720,
+                            "name": "GURU TEG BAHADUR PARA MEDICAL INSTITUTE"
+                        },
+                        {
+                            "id": 721,
+                            "name": "RAMA INSTITUTE OF HIGHER EDUCATION"
+                        },
+                        {
+                            "id": 722,
+                            "name": "DEV KUMAR RAJARAM PHARMACY SHIKSHAN SANSTHAN"
+                        },
+                        {
+                            "id": 723,
+                            "name": "SARDAR PATEL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 724,
+                            "name": "MASCOT COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 725,
+                            "name": "DISHA INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 726,
+                            "name": "SETH BADRI PRASAD SMARITI MAHAVIDHALAYA DEPARTMENT OF PHARMACY"
+                        },
+                        {
+                            "id": 727,
+                            "name": "DSSOP PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 728,
+                            "name": "SRI RAM GOPAL COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 729,
+                            "name": "LAKHMI CHAND PATWARI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 730,
+                            "name": "S B S L D COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 731,
+                            "name": "SRAM COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 732,
+                            "name": "SARASWATHI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 733,
+                            "name": "THE SUN SHINE COLLEGE OF EDUCATION"
+                        },
+                        {
+                            "id": 734,
+                            "name": "VENKATESHWARA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 735,
+                            "name": "SHREE SATYA COLLEGE OF HIGHER EDUCATION"
+                        },
+                        {
+                            "id": 736,
+                            "name": "ARYAKUL COLLEGE OF PHARMACY & RESEARCH RAEBARELI"
+                        },
+                        {
+                            "id": 737,
+                            "name": "ARYAKUL COLLEGE OF PHARMACY & RESEARCH SITAPUR"
+                        },
+                        {
+                            "id": 738,
+                            "name": "AVADH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 739,
+                            "name": "B.R.COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 740,
+                            "name": "RISHI RAM NARESH COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 741,
+                            "name": "HIMALAYAN INSTITUTE OF PHARMACY AND RESEARCH"
+                        },
+                        {
+                            "id": 742,
+                            "name": "SCPM COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 743,
+                            "name": "ARK COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 744,
+                            "name": "GALGOTIAS COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 745,
+                            "name": "BABA INSTITUTE OF PHARMACY"
+                        },
+                        {
+                            "id": 746,
+                            "name": "RIYA INTERNATIONAL COLLEGE KALIYANPUR G T ROAD ALIGARH"
+                        },
+                        {
+                            "id": 747,
+                            "name": "DIVYA JYOTI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 748,
+                            "name": "SHREE SAI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 749,
+                            "name": "GAJRAJ SINGH YADAV KARANPAL SINGH YADAV COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 750,
+                            "name": "CHANDPUR COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 751,
+                            "name": "JAI MAA VAISHNO PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 752,
+                            "name": "SPECTRUM HI PHARMACY COLLEGE"
+                        },
+                        {
+                            "id": 753,
+                            "name": "SARASWATI COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 754,
+                            "name": "DR. V. P. MADNAWAT COLLEGE OF EDUCATIONAL AND PROFESSIONAL COURSES"
+                        },
+                        {
+                            "id": 755,
+                            "name": "KAMAKHYA COLLEGE OF PHARMACY"
+                        },
+                        {
+                            "id": 756,
+                            "name": "SS COLLEGE OF PHARMACY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
