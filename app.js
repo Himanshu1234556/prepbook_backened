@@ -30,5 +30,5 @@ app.use('/api/v1/dropdown', dropdownRoutes);
 // Centralized Error Handling
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3339;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
