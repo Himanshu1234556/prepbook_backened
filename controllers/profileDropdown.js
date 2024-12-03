@@ -29,7 +29,11 @@ exports.getCoursesDropdown = async (req, res) => {
 
         if (cachedData) {
             console.log("Using cached data...");
-            return res.json(cachedData);
+            return res.status(200).json({
+                status: 'success',
+                message: 'Courses dropdown fetched from cache',
+                data: cachedData
+            });
         }
 
         console.log("Fetching data from database...");
@@ -97,9 +101,17 @@ exports.getCoursesDropdown = async (req, res) => {
         // Cache the response
         cache.set("coursesDropdown", response);
 
-        res.json(response);
+        res.status(200).json({
+            status: 'success',
+            message: 'Courses dropdown fetched successfully',
+            data: response
+        });
     } catch (error) {
         console.error(error);
-        res.status(500).json({ error: 'Internal Server Error' });
+        res.status(500).json({
+            status: 'error',
+            message: 'Internal Server Error',
+            data: null
+        });
     }
 };

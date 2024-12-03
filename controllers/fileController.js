@@ -14,7 +14,11 @@ exports.streamFile = async (req, res) => {
 
     // Check if file exists
     if (!fs.existsSync(filePath)) {
-        return res.status(404).json({ message: 'File not found' });
+        return res.status(404).json({
+            status: 'error',
+            message: 'File not found',
+            data: null
+        });
     }
 
     // Fetch user details from the database based on the userId from the token
@@ -27,7 +31,11 @@ exports.streamFile = async (req, res) => {
         const user = result.rows[0];  // Get the user object from the query result
 
         if (!user) {
-            return res.status(404).json({ message: 'User not found' });
+            return res.status(404).json({
+                status: 'error',
+                message: 'User not found',
+                data: null
+            });
         }
 
         // Handle watermarking for PDF files in a separate thread
@@ -48,7 +56,11 @@ exports.streamFile = async (req, res) => {
             // Handle worker errors
             worker.on('error', (error) => {
                 console.error('Worker Error:', error);
-                return res.status(500).json({ message: 'Error processing file' });
+                return res.status(500).json({
+                    status: 'error',
+                    message: 'Error processing file',
+                    data: null
+                });
             });
 
             // Handle worker exit
@@ -65,6 +77,10 @@ exports.streamFile = async (req, res) => {
         }
     } catch (error) {
         console.error('Error fetching user or processing file:', error);
-        return res.status(500).json({ message: 'Server error' });
+        return res.status(500).json({
+            status: 'error',
+            message: 'Server error',
+            data: null
+        });
     }
 };

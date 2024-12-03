@@ -10,7 +10,11 @@ exports.getAppData = async (req, res) => {
     const appInfoResult = await db.query(appInfoQuery);
 
     if (appInfoResult.rows.length === 0) {
-      return res.status(404).json({ message: 'App info not found' });
+      return res.status(404).json({
+        status: 'error',
+        message: 'App info not found',
+        data: null,
+      });
     }
 
     const appInfo = appInfoResult.rows[0];
@@ -20,15 +24,23 @@ exports.getAppData = async (req, res) => {
 
     worker.on('message', (marketingAssets) => {
       // Once the worker returns marketing assets, send the combined response
-      res.json({
-        app_info: appInfo,
-        marketing_assets: marketingAssets,
+      res.status(200).json({
+        status: 'success',
+        message: 'Request was successful',
+        data: {
+          app_info: appInfo,
+          marketing_assets: marketingAssets,
+        },
       });
     });
 
     worker.on('error', (error) => {
       console.error('Worker Error:', error);
-      res.status(500).json({ message: 'Error processing marketing assets' });
+      res.status(500).json({
+        status: 'error',
+        message: 'Error processing marketing assets',
+        data: null,
+      });
     });
 
     worker.on('exit', (code) => {
@@ -38,6 +50,10 @@ exports.getAppData = async (req, res) => {
     });
   } catch (error) {
     console.error('Error fetching app data:', error);
-    res.status(500).json({ message: 'Server error' });
+    res.status(500).json({
+      status: 'error',
+      message: 'Server error',
+      data: null,
+    });
   }
 };

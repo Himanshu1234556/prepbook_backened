@@ -15,7 +15,11 @@ exports.fetchEbooksAndFreeResources = async (req, res) => {
         // First, check the local node-cache
         const localCachedData = localCache.get(cacheKey);
         if (localCachedData) {
-            return res.status(200).json(localCachedData); // Return data from local cache
+            return res.status(200).json({
+                status: 'success',
+                message: 'Ebooks and free resources fetched from cache',
+                data: localCachedData
+            });
         }
 
         // If not in node-cache, check Redis
@@ -23,7 +27,11 @@ exports.fetchEbooksAndFreeResources = async (req, res) => {
         if (redisCachedData) {
             const parsedData = JSON.parse(redisCachedData);
             localCache.set(cacheKey, parsedData); // Populate node-cache from Redis
-            return res.status(200).json(parsedData); // Return cached data from Redis
+            return res.status(200).json({
+                status: 'success',
+                message: 'Ebooks and free resources fetched from Redis cache',
+                data: parsedData
+            });
         }
 
         const ebookWorkerPath = path.join(__dirname, '../worker_threads/ebookWorker.js');
@@ -45,14 +53,28 @@ exports.fetchEbooksAndFreeResources = async (req, res) => {
             })
         ]);
 
-        const result = { ebooks, freeResources };
+        // Validate results to ensure successful data retrieval
+        if (ebooks && freeResources) {
+            const result = { ebooks, freeResources };
 
-        // Store the results in both local node-cache and Redis with an expiration time (e.g., 300 seconds)
-        localCache.set(cacheKey, result);
-        await redis.set(cacheKey, JSON.stringify(result), 'EX', 300);
+            // Store the results in both local node-cache and Redis with an expiration time (e.g., 300 seconds)
+            localCache.set(cacheKey, result);
+            await redis.set(cacheKey, JSON.stringify(result), 'EX', 300);
 
-        res.status(200).json(result);
+            return res.status(200).json({
+                status: 'success',
+                message: 'Ebooks and free resources fetched successfully',
+                data: result
+            });
+        } else {
+            // If either data is missing, log an error and send a failure message
+            throw new Error('Failed to fetch complete data from workers.');
+        }
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(500).json({
+            status: 'error',
+            message: error.message,
+            data: null
+        });
     }
 };

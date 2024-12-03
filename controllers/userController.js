@@ -22,38 +22,48 @@ exports.updateProfile = async (req, res) => {
         if (branch_id) profileData.branch_id = branch_id;
         if (semester_id) profileData.semester_id = semester_id;
         if (fcm_token) profileData.fcm_token = fcm_token;
+        
         // Ensure subjects is valid JSON
         if (subjects) {
             try {
                 // Parse and validate subjects to ensure it’s in JSON format
                 profileData.subjects = Array.isArray(subjects) ? JSON.stringify(subjects) : subjects;
             } catch (error) {
-                return res.status(400).json({ error: 'Invalid JSON format for subjects' });
+                return res.status(400).json({
+                    status: 'error',
+                    message: 'Invalid JSON format for subjects',
+                });
             }
         }
 
         // Call service function to update the profile
-        const updatedUser = await userService.updateUserProfile(userId, profileData);
-        res.status(200).json({ message: 'Profile updated' });
+        await userService.updateUserProfile(userId, profileData);
+        
+        // Standard success response
+        res.status(200).json({
+            status: 'success',
+            message: 'Profile updated successfully',
+        });
 
     } catch (error) {
         console.error('Error updating profile:', error);
-        res.status(500).json({ error: error.message });
+        res.status(500).json({
+            status: 'error',
+            message: error.message,
+        });
     }
 };
 
 
 
-
-
-
-
-// Fetch user profile (multithreaded)
 exports.fetchUserProfile = (req, res) => {
     const { userId } = req.user;  // Assuming JWT token verification is done
 
     if (!userId) {
-        return res.status(400).json({ message: 'Invalid user ID' });
+        return res.status(400).json({
+            status: 'error',
+            message: 'Invalid user ID',
+        });
     }
 
     // Create a new worker to handle profile fetching
@@ -64,7 +74,10 @@ exports.fetchUserProfile = (req, res) => {
     // Handle messages from the worker
     worker.on('message', async (profile) => {
         if (profile.error) {
-            return res.status(500).json({ message: profile.error });
+            return res.status(500).json({
+                status: 'error',
+                message: profile.error,
+            });
         }
 
         // Start caching ebooks and free resources in the background
@@ -72,21 +85,31 @@ exports.fetchUserProfile = (req, res) => {
             await cacheEbooksAndFreeResources(userId);
         })();
 
-        // Return the profile immediately
-        res.status(200).json({ profile });
+        // Return the profile immediately with a standardized response
+        res.status(200).json({
+            status: 'success',
+            message: 'Profile fetched successfully',
+            data: { profile },
+        });
     });
 
     // Handle worker errors
     worker.on('error', (error) => {
         console.error('Worker Error:', error);
-        res.status(500).json({ message: 'Error fetching user profile' });
+        res.status(500).json({
+            status: 'error',
+            message: 'Error fetching user profile from worker',
+        });
     });
 
     // Handle worker exit
     worker.on('exit', (code) => {
         if (code !== 0) {
             console.error(`Worker stopped with exit code ${code}`);
-            res.status(500).json({ message: 'Worker process failed' });
+            res.status(500).json({
+                status: 'error',
+                message: 'Worker process failed',
+            });
         }
     });
 };

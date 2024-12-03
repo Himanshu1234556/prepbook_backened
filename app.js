@@ -7,6 +7,7 @@ const assetRoutes = require('./routes/assetRoutes');
 const appRoutes = require('./routes/appRoutes');
 const dataRoutes = require('./routes/dataRoutes');
 const dropdownRoutes = require('./routes/dropdownRoutes');
+const subjectRoutes = require('./routes/subjectRoutes');
 // const freeResourceCRUD = require('./routes/freeResourceCategoryRoutes');
 const { errorHandler } = require('./middlewares/errorMiddleware');
 
@@ -20,6 +21,7 @@ app.use('/api/v1', fileRoutes);
 app.use('/api/v1', assetRoutes);
 app.use('/api/v1', appRoutes);
 app.use('/api/v1', dataRoutes);
+app.use('/api/v1', subjectRoutes);
 app.use('/api/v1/dropdown', dropdownRoutes);
 // admin routes
 
