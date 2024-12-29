@@ -7,7 +7,9 @@ const fetchFreeResources = async (userId) => {
         SELECT 
             id AS category_id,
             name AS category_name,
-            parent_id
+            parent_id,
+            icon_url,
+            description
         FROM 
             free_resource_categories
         WHERE 
@@ -59,6 +61,8 @@ const fetchFreeResources = async (userId) => {
         categoryMap[category.category_id] = {
             category_id: category.category_id,
             category_name: category.category_name,
+            icon_url: category.icon_url, // Add iconurl to the category
+            description: category.description,
             parent_id: category.parent_id,
             subcategories: [],
             subjects: [],
@@ -109,6 +113,8 @@ const fetchFreeResources = async (userId) => {
     const buildHierarchy = (category) => ({
         category_id: category.category_id,
         category_name: category.category_name,
+        icon_url: category.icon_url,
+        subtitle: category.description,
         subcategories: category.subcategories.map(buildHierarchy),
         subjects: category.subjects,
         files: category.files // Include general files at the category level

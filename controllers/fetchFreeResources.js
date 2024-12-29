@@ -31,9 +31,10 @@ exports.fetchFreeResources = async (req, res) => {
             });
         }
 
-        // Then, check Redis cache
+        /* Then, check Redis cache
         let redisCachedData;
         try {
+            
             redisCachedData = await redis.get(cacheKey);
         } catch (error) {
             console.error('Error fetching data from Redis:', error.message);
@@ -47,7 +48,7 @@ exports.fetchFreeResources = async (req, res) => {
                 data: JSON.parse(redisCachedData)
             });
         }
-
+*/
         // Worker setup and data fetching
         const freeResourceWorkerPath = path.join(__dirname, '../worker_threads/freeResourceWorker.js');
         const freeResourceWorker = new Worker(freeResourceWorkerPath, { workerData: { userId } });

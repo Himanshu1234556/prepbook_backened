@@ -21,7 +21,7 @@ exports.fetchEbooks = async (req, res) => {
             });
         }
 
-        // If not in node-cache, check Redis
+        /* If not in node-cache, check Redis
         const redisCachedData = await redis.get(cacheKey);
         if (redisCachedData) {
             const parsedData = JSON.parse(redisCachedData);
@@ -32,6 +32,7 @@ exports.fetchEbooks = async (req, res) => {
                 data: parsedData
             });
         }
+            */
 
         const ebookWorkerPath = path.join(__dirname, '../worker_threads/ebookWorker.js');
 

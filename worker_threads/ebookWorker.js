@@ -3,14 +3,31 @@ const db = require('../config/db');
 
 const fetchEbooks = async (userId) => {
     const query = `
-      SELECT e.id AS ebook_id, e.title, e.author, e.publication_date, e.language, e.file_path, e.file_type, 
-       s.id AS subject_id, s.name AS subject_name
-FROM ebooks e
-JOIN subjects s ON (e.subject_id = s.id)
-JOIN users u 
-  ON (e.branch_id @> to_jsonb(u.branch_id))
-  AND (e.university_id @> to_jsonb(u.university_id))
-WHERE u.id = $1;
+     SELECT 
+    e.id AS ebook_id, 
+    e.title, 
+    e.author, 
+    e.publication_date, 
+    e.language, 
+    e.file_path, 
+    e.file_type, 
+    s.id AS subject_id, 
+    s.name AS subject_name
+FROM 
+    ebooks e
+JOIN 
+    subjects s 
+    ON e.subject_id = s.id
+JOIN 
+    users u 
+    ON e.subject_id = ANY (
+        SELECT 
+            (jsonb_array_elements_text(u.subjects))::INTEGER
+    )
+WHERE 
+    u.id = $1;
+
+
 `;
 
 
@@ -31,6 +48,7 @@ WHERE u.id = $1;
             };
         }
         acc[subjectId].documents.push({
+            file_name: row.title,
             file_path: row.file_path,
             file_type: row.file_type
         });
