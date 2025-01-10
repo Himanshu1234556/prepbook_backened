@@ -1,10 +1,10 @@
 const redis = require('../config/redisClient'); // Import your Redis client
+const localCache = require('../config/localcache'); // Import shared cache
 const NodeCache = require('node-cache'); // Import node-cache
 const { Worker } = require('worker_threads');
 const path = require('path');
 
-// Set up node-cache with a standard TTL (e.g., 300 seconds)
-const localCache = new NodeCache({ stdTTL: 300 });
+
 
 exports.fetchEbooks = async (req, res) => {
     try {
@@ -16,7 +16,7 @@ exports.fetchEbooks = async (req, res) => {
         if (localCachedData) {
             return res.status(200).json({
                 status: 'success',
-                message: 'Ebooks fetched from cache',
+                message: 'Ebooks fetched from Node cache',
                 data: localCachedData
             });
         }

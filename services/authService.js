@@ -40,7 +40,7 @@ exports.verifyOtp = async (phone, otp) => {
         const token = jwtHelper.generateToken({ userId: user.id });
 
         // Check if the user profile is updated
-        const profileUpdatedKey = !!(user.name && user.email && user.university_id && user.college_id && user.branch_id && user.year);
+        const profileUpdatedKey = !!(user.name && user.email && user.university_id && user.college_id && user.branch_id && user.semester_id && user.course_id);
 
         if (profileUpdatedKey) {
             return { token, profileUpdated: true };

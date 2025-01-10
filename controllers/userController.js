@@ -1,15 +1,18 @@
-// Fetch user profile (multithreaded)
 const userService = require('../services/userService');
 const { cacheEbooksAndFreeResources } = require('../helpers/resourceCache');
 const { Worker } = require('worker_threads');
 const path = require('path');
+const redis = require('../config/redisClient'); // Import Redis client
+const NodeCache = require('node-cache'); // Import node-cache
+const localCache = require('../config/localcache'); // Import shared cache
 
 
+// Update user profile
 exports.updateProfile = async (req, res) => {
     const { userId } = req.user; // Extract user ID from JWT
 
     try {
-        // Extract the fields from the request body
+        // Extract fields from the request body
         const { name, email, university_id, college_id, course_id, branch_id, semester_id, subjects, fcm_token } = req.body;
 
         const profileData = {};
@@ -22,8 +25,8 @@ exports.updateProfile = async (req, res) => {
         if (branch_id) profileData.branch_id = branch_id;
         if (semester_id) profileData.semester_id = semester_id;
         if (fcm_token) profileData.fcm_token = fcm_token;
-        
-        // Ensure subjects is valid JSON
+
+        // Handle `subjects` field validation
         if (subjects) {
             try {
                 // Parse and validate subjects to ensure it’s in JSON format
@@ -38,8 +41,19 @@ exports.updateProfile = async (req, res) => {
 
         // Call service function to update the profile
         await userService.updateUserProfile(userId, profileData);
-        
-        // Standard success response
+
+        // Cache keys for ebooks and free resources
+        const ebooksCacheKey = `ebooks:${userId}`;
+        const freeResourcesCacheKey = `free_resources:${userId}`;
+       //  console.log(ebooksCacheKey);
+        // console.log('Cache keys before deletion:', localCache.keys());
+    
+        localCache.del(ebooksCacheKey); // Remove ebooks cache from local cache
+        localCache.del(freeResourcesCacheKey); // Remove free resources cache from local cache
+        await redis.del(ebooksCacheKey); // Remove ebooks cache from Redis
+        await redis.del(freeResourcesCacheKey); // Remove free resources cache from Redis
+       // console.log('Cache keys after deletion:', localCache.keys());
+        // Success response
         res.status(200).json({
             status: 'success',
             message: 'Profile updated successfully',
@@ -54,10 +68,9 @@ exports.updateProfile = async (req, res) => {
     }
 };
 
-
-
+// Fetch user profile (multithreaded)
 exports.fetchUserProfile = (req, res) => {
-    const { userId } = req.user;  // Assuming JWT token verification is done
+    const { userId } = req.user; // Extract user ID from JWT
 
     if (!userId) {
         return res.status(400).json({
@@ -68,7 +81,7 @@ exports.fetchUserProfile = (req, res) => {
 
     // Create a new worker to handle profile fetching
     const worker = new Worker(path.join(__dirname, '../worker_threads/profileWorker.js'), {
-        workerData: { userId: userId }
+        workerData: { userId }
     });
 
     // Handle messages from the worker
@@ -82,10 +95,14 @@ exports.fetchUserProfile = (req, res) => {
 
         // Start caching ebooks and free resources in the background
         (async () => {
-            await cacheEbooksAndFreeResources(userId);
+            try {
+                await cacheEbooksAndFreeResources(userId);
+            } catch (error) {
+                console.error('Error caching resources:', error);
+            }
         })();
 
-        // Return the profile immediately with a standardized response
+        // Send profile data as a success response
         res.status(200).json({
             status: 'success',
             message: 'Profile fetched successfully',
@@ -98,7 +115,7 @@ exports.fetchUserProfile = (req, res) => {
         console.error('Worker Error:', error);
         res.status(500).json({
             status: 'error',
-            message: 'Error fetching user profile from worker',
+            message: 'Error fetching user profile',
         });
     });
 
