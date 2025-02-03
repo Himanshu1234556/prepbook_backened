@@ -10,6 +10,7 @@ const appRoutes = require('./routes/appRoutes');
 const dataRoutes = require('./routes/dataRoutes');
 const dropdownRoutes = require('./routes/dropdownRoutes');
 const subjectRoutes = require('./routes/subjectRoutes');
+const adsRoutes = require('./routes/adsRoutes');
 // const freeResourceCRUD = require('./routes/freeResourceCategoryRoutes');
 const { errorHandler } = require('./middlewares/errorMiddleware');
 
@@ -31,6 +32,7 @@ app.use('/api/v1', appRoutes);
 app.use('/api/v1', dataRoutes);
 app.use('/api/v1', subjectRoutes);
 app.use('/api/v1/dropdown', dropdownRoutes);
+app.use('/api/v1/ads-config', adsRoutes);
 // admin routes
 // app.use('/api/ResourceCrud', freeResourceCRUD);
 

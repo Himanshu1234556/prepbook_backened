@@ -12,6 +12,9 @@ exports.updateProfile = async (req, res) => {
     const { userId } = req.user; // Extract user ID from JWT
 
     try {
+         // Log the received data for debugging
+         console.log('Received data for updateProfile:', req.body);
+
         // Extract fields from the request body
         const { name, email, university_id, college_id, course_id, branch_id, semester_id, subjects, fcm_token } = req.body;
 

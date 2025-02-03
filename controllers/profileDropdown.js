@@ -15,7 +15,7 @@ const fetchData = async () => {
         LEFT JOIN branches b ON b.course_id @> to_jsonb(c.id::text)  -- Use to_jsonb with text
         LEFT JOIN semesters s ON s.course_id @> to_jsonb(c.id::text)  -- Use to_jsonb with text
         LEFT JOIN universities u ON u.id IS NOT NULL -- Replace this with a valid condition if necessary
-        LEFT JOIN colleges col ON col.university_id = u.id
+        LEFT JOIN colleges col ON col.university_id = u.id ORDER BY c.id ASC, b.id ASC, s.id ASC, u.id ASC, col.id ASC
     `;
 
     const result = await pool.query(coursesQuery);
