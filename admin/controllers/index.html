@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Resource Category API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <style>
+        .container { margin-top: 20px; }
+        .icon-img { width: 40px; height: 40px; }
+        td[contenteditable="true"] { background: #f8f9fa; border: 1px solid #ddd; cursor: pointer; }
+        .modal-content { padding: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="mb-4">Free Resource Category API</h2>
+
+    <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#categoryModal">Add Category</button>
+
+    <table id="categoryTable" class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Active</th>
+                <th>University IDs</th>
+                <th>Parent ID</th>
+                <th>Icon</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<!-- Add Category Modal -->
+<div class="modal fade" id="categoryModal" tabindex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="categoryModalLabel">Add Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="categoryForm">
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" id="categoryName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Description</label>
+                        <textarea class="form-control" id="categoryDescription"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">University IDs (comma separated)</label>
+                        <input type="text" class="form-control" id="categoryUniversities">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Parent ID</label>
+                        <input type="number" class="form-control" id="categoryParent">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Icon URL</label>
+                        <input type="text" class="form-control" id="categoryIcon">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="categoryActive" checked>
+                        <label class="form-check-label">Active</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Save Category</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    loadCategories();
+});
+
+// Load Categories
+let categories = [];
+
+function loadCategories() {
+    fetch('http://localhost:3339/api/v1/admin/free-resource-categories')
+        .then(response => response.json())
+        .then(data => {
+            categories = data.data;
+            renderTable();
+        })
+        .catch(error => console.error('Error fetching data:', error));
+}
+
+// Render Table
+function renderTable() {
+    let tableBody = $("#categoryTable tbody");
+    tableBody.empty();
+
+    categories.forEach((category, index) => {
+        let iconUrl = category.icon_url && category.icon_url.trim() !== "" ? category.icon_url : "https://placehold.co/40"; // Default image
+
+        tableBody.append(`
+            <tr data-id="${category.id}">
+                <td>${category.id}</td>
+                <td contenteditable="true">${category.name}</td>
+                <td contenteditable="true">${category.description}</td>
+                <td>
+                    <input type="checkbox" ${category.is_active ? 'checked' : ''} onchange="toggleActive(${index})">
+                </td>
+                <td contenteditable="true">${category.university_ids.join(', ')}</td>
+                <td contenteditable="true">${category.parent_id ?? ''}</td>
+                <td>
+                    <img src="${iconUrl}" class="icon-img" alt="Icon" onerror="this.onerror=null; this.src='https://placehold.co/40';">
+                </td>
+                <td>
+                    <button class="btn btn-primary btn-sm" onclick="updateCategory(${index})">Save</button>
+                    <button class="btn btn-danger btn-sm" onclick="deleteCategory(${index})">Delete</button>
+                </td>
+            </tr>
+        `);
+    });
+
+    $('#categoryTable').DataTable();
+}
+
+function toggleActive(index) {
+    categories[index].is_active = !categories[index].is_active;
+}
+
+// Add Category from Modal
+$("#categoryForm").submit(function(e) {
+    e.preventDefault();
+
+    let newCategory = {
+        id: categories.length + 1,
+        name: $("#categoryName").val(),
+        description: $("#categoryDescription").val(),
+        is_active: $("#categoryActive").prop("checked"),
+        university_ids: $("#categoryUniversities").val().split(',').map(Number),
+        parent_id: $("#categoryParent").val() || null,
+        icon_url: $("#categoryIcon").val()
+    };
+
+    fetch('http://localhost:3339/api/v1/admin/free-resource-categories', {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newCategory)
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+        $('#categoryModal').modal('hide');
+        loadCategories();
+    })
+    .catch(error => console.error("Error adding category:", error));
+});
+
+// Update Category
+function updateCategory(index) {
+    let row = $(`#categoryTable tbody tr`).eq(index);
+    let id = row.data('id');
+
+    let updatedCategory = {
+        id: id,
+        name: row.find("td:eq(1)").text(),
+        description: row.find("td:eq(2)").text(),
+        is_active: row.find("td:eq(3) input").prop("checked"),
+        university_ids: row.find("td:eq(4)").text().split(',').map(Number),
+        parent_id: row.find("td:eq(5)").text() || null,
+        icon_url: categories[index].icon_url
+    };
+
+    fetch(`http://localhost:3339/api/v1/admin/free-resource-categories/${id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(updatedCategory)
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+        loadCategories();
+    })
+    .catch(error => console.error("Error updating category:", error));
+}
+
+// Delete Category with Confirmation
+function deleteCategory(index) {
+    if (confirm("Are you sure you want to delete this category?")) {
+        let id = categories[index].id;
+        fetch(`http://localhost:3339/api/v1/admin/free-resource-categories/${id}`, { method: "DELETE" })
+        .then(() => {
+            categories.splice(index, 1);
+            renderTable();
+        });
+    }
+}
+</script>
+
+</body>
+</html>
