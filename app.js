@@ -13,6 +13,8 @@ const subjectRoutes = require('./routes/subjectRoutes');
 const adsRoutes = require('./routes/adsRoutes');
 // const freeResourceCRUD = require('./routes/freeResourceCategoryRoutes');
 const { errorHandler } = require('./middlewares/errorMiddleware');
+const adminRoutes = require('./admin/routes/freeResourceCategoryRoutes');
+const usersRoutes = require("./admin/routes/usersRoutes");
 
 const app = express();
 
@@ -35,7 +37,9 @@ app.use('/api/v1/dropdown', dropdownRoutes);
 app.use('/api/v1/ads-config', adsRoutes);
 // admin routes
 // app.use('/api/ResourceCrud', freeResourceCRUD);
-
+app.use('/api/v1/admin/free-resource-categories', adminRoutes);
+// Routes
+app.use("/api/v1/admin/users", usersRoutes);
 // Centralized Error Handling
 app.use(errorHandler);
 
