@@ -15,6 +15,14 @@ const adsRoutes = require('./routes/adsRoutes');
 const { errorHandler } = require('./middlewares/errorMiddleware');
 const adminRoutes = require('./admin/routes/freeResourceCategoryRoutes');
 const usersRoutes = require("./admin/routes/usersRoutes");
+const adminsubjectRoutes = require("./admin/routes/subjectRoutes");
+
+const videoRoutes = require('./routes/videoRoutes');
+
+const analyticsMiddleware = require('./middlewares/analytics');
+const analyticsRoutes = require('./routes/analyticsRoutes');
+require('./cron/send');
+
 
 const app = express();
 
@@ -24,8 +32,10 @@ app.options('*', cors()); // Handle preflight requests for all routes
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+// Apply Global Analytics Middleware
+app.use(analyticsMiddleware);
 // Define your routes
+app.use('/api/v1/analytics', analyticsRoutes);
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/user', userRoutes);
 app.use('/api/v1', fileRoutes);
@@ -35,6 +45,8 @@ app.use('/api/v1', dataRoutes);
 app.use('/api/v1', subjectRoutes);
 app.use('/api/v1/dropdown', dropdownRoutes);
 app.use('/api/v1/ads-config', adsRoutes);
+app.use('/api/v1/qr_play', videoRoutes);
+app.use('/api/v1/subject', adminsubjectRoutes);
 // admin routes
 // app.use('/api/ResourceCrud', freeResourceCRUD);
 app.use('/api/v1/admin/free-resource-categories', adminRoutes);

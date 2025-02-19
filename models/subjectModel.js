@@ -5,7 +5,7 @@ const NodeCache = require('node-cache'); // Import node-cache
 const localCache = new NodeCache(); // Initialize node-cache
 
 // Set this flag to `false` to bypass cache
-const useCache = false; // Set this to false to bypass cache
+const useCache = false; // Change this to true if you want to use caching
 
 // Fetch the list of subjects based on user details
 const fetchSubjectsForUser = async (userId) => {
@@ -28,20 +28,25 @@ const fetchSubjectsForUser = async (userId) => {
         // Create a cache key based on the user profile
         const cacheKey = `subjects:${branch_id}:${semester_id}:${course_id}`;
 
-        // Check local cache if useCache is true
         let subjects;
+
+        // Cache lookup logic
         if (useCache) {
+            // Check in local cache first
             subjects = localCache.get(cacheKey);
+
             if (!subjects) {
+                // If not in local cache, check Redis
                 const cachedSubjects = await redis.get(cacheKey);
                 if (cachedSubjects) {
                     subjects = JSON.parse(cachedSubjects);
-                    localCache.set(cacheKey, subjects, 3600);
+                    localCache.set(cacheKey, subjects, 3600); // Set to local cache as fallback
                 }
             }
         }
 
         if (!subjects) {
+            // If no cache found, fetch subjects from DB
             const branchIdStr = String(branch_id);
             const semesterIdStr = String(semester_id);
             const courseIdStr = String(course_id);
@@ -69,8 +74,10 @@ const fetchSubjectsForUser = async (userId) => {
             });
 
             // Fetch all subjects excluding those already matched
-            const allSubjectsQuery = `SELECT id, name, code FROM subjects`;
-            const allSubjectsResult = await pool.query(allSubjectsQuery);
+            const allSubjectsQuery = `SELECT id, name, code FROM subjects WHERE course_ids @> $1::jsonb`;
+            const allSubjectsResult = await pool.query(allSubjectsQuery, [
+                JSON.stringify([courseIdStr])
+            ]);
 
             const allSubjects = allSubjectsResult.rows.filter(subject => 
                 !matchedSubjects.some(ms => ms.id === subject.id)

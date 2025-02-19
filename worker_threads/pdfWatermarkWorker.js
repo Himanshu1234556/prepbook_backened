@@ -1,30 +1,79 @@
 const fs = require('fs');
+const path = require('path');
 const { parentPort, workerData } = require('worker_threads');
 const { PDFDocument, rgb } = require('pdf-lib');
+const { sendWhatsAppMessage } = require("../helpers/otpHelper.js");
+
+const DEFAULT_PDF_PATH = './files/error/default.pdf'; // Default PDF file path
+const PROMO_PDF_PATH = './files/error/promo.pdf'; // Promo PDF file path
+const ENABLE_WATERMARK = true; // Toggle watermarking
 
 (async () => {
     const { filePath, email, phone } = workerData;
+    let issueMessage = null; // Store error message for WhatsApp reporting
+    const fileName = path.basename(filePath); // Extract filename from path
 
     try {
         console.log('Reading file from:', filePath);
-        const existingPdfBytes = fs.readFileSync(filePath);
+        let existingPdfBytes;
 
-        // Check if the file buffer is not empty
-        if (existingPdfBytes.length === 0) {
-            console.error('Error: PDF is empty');
-            parentPort.postMessage({ error: 'PDF is empty' });
+        try {
+            existingPdfBytes = fs.readFileSync(filePath);
+            if (!existingPdfBytes || existingPdfBytes.length === 0) {
+                issueMessage = "PDF file is empty.";
+                throw new Error(issueMessage);
+            }
+        } catch (err) {
+            issueMessage = "File not found or cannot be read.";
+            console.error('Error reading PDF file:', err.message);
+            parentPort.postMessage(fs.readFileSync(DEFAULT_PDF_PATH));
             return;
         }
 
-        // Log the first few bytes of the PDF (to verify it’s a valid PDF)
-        console.log('First 20 bytes of PDF:', existingPdfBytes.slice(0, 20));
+        if (!ENABLE_WATERMARK) {
+            console.log('Watermarking is disabled. Streaming original PDF with promo.');
+            const finalPdfBytes = await appendPromoPdf(existingPdfBytes);
+            parentPort.postMessage(finalPdfBytes);
+            return;
+        }
 
-        // Load a PDFDocument from the existing PDF bytes
-        const pdfDoc = await PDFDocument.load(existingPdfBytes, { ignoreEncryption: true });
+        if (existingPdfBytes.includes(Buffer.from('/Encrypt'))) {
+            issueMessage = "PDF is encrypted. Cannot modify.";
+            console.warn(issueMessage);
+            parentPort.postMessage(existingPdfBytes);
+            return;
+        }
 
-        // Process the first page and add watermark
+        let pdfDoc;
+        try {
+            pdfDoc = await PDFDocument.load(existingPdfBytes, { ignoreEncryption: true });
+        } catch (err) {
+            issueMessage = "Corrupted or invalid PDF format.";
+            console.error('Error loading PDF:', err.message);
+            parentPort.postMessage(fs.readFileSync(DEFAULT_PDF_PATH));
+            return;
+        }
+
         const pages = pdfDoc.getPages();
+        if (pages.length === 0) {
+            issueMessage = "No pages found in the PDF.";
+            console.warn(issueMessage);
+            parentPort.postMessage(fs.readFileSync(DEFAULT_PDF_PATH));
+            return;
+        }
+
         const firstPage = pages[0];
+        if (firstPage.getTextContent) {
+            const textContent = await firstPage.getTextContent();
+            if (textContent.items.length === 0) {
+                issueMessage = "Scanned PDF detected. Returning as is.";
+                console.warn(issueMessage);
+                parentPort.postMessage(existingPdfBytes);
+                return;
+            }
+        }
+
+        // Adding watermark
         firstPage.drawText(`User: ${email} - ${phone}`, {
             x: 50,
             y: 50,
@@ -32,11 +81,43 @@ const { PDFDocument, rgb } = require('pdf-lib');
             color: rgb(0.95, 0.1, 0.1),
         });
 
-        // Serialize and return the watermarked PDF
         const watermarkedPdfBytes = await pdfDoc.save();
-        parentPort.postMessage(watermarkedPdfBytes);
+        const finalPdfBytes = await appendPromoPdf(watermarkedPdfBytes);
+        parentPort.postMessage(finalPdfBytes);
     } catch (error) {
-        console.error('Error processing PDF:', error.message);
-        parentPort.postMessage({ error: error.message });
+        console.error('Unexpected Error:', error.message);
+        issueMessage = issueMessage || "Unexpected processing error.";
+        parentPort.postMessage(fs.readFileSync(DEFAULT_PDF_PATH));
+    }
+
+    // Send WhatsApp notification only if an issue occurred
+    if (issueMessage) {
+        sendWhatsAppMessage("8630171310", "bug_report", [
+            `User : ${phone}`,
+            `📂 **File Path:** ${filePath}`,
+            `⚠️ **Issue:** ${issueMessage}`
+        ])
+        .then(response => console.log("WhatsApp alert sent successfully:", response))
+        .catch(error => console.error("Failed to send WhatsApp alert:", error));
     }
 })();
+
+async function appendPromoPdf(pdfBytes) {
+    try {
+        const mainPdf = await PDFDocument.load(pdfBytes);
+        const promoPdfBytes = fs.readFileSync(PROMO_PDF_PATH);
+        const promoPdf = await PDFDocument.load(promoPdfBytes);
+
+        const mergedPdf = await PDFDocument.create();
+        const mainPages = await mergedPdf.copyPages(mainPdf, mainPdf.getPageIndices());
+        mainPages.forEach(page => mergedPdf.addPage(page));
+
+        const promoPages = await mergedPdf.copyPages(promoPdf, promoPdf.getPageIndices());
+        promoPages.forEach(page => mergedPdf.addPage(page));
+
+        return await mergedPdf.save();
+    } catch (error) {
+        console.error("Error appending promo PDF:", error.message);
+        return pdfBytes; // Return original if promo append fails
+    }
+}

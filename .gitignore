@@ -8,7 +8,7 @@ yarn-error.log*
 .env
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -17,3 +17,10 @@ yarn-error.log*
 # OS-specific
 .DS_Store
 Thumbs.db
+
+# Ignore everything in the files folder
+files/*
+
+# Except the error folder inside files
+!files/error/
+!files/error/**
